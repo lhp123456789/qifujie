@@ -1,0 +1,448 @@
+2020-04-25 14:52:03 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "static/img/pc_loginBg.jpg". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('static/img/pc_l...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-25 14:52:00 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'BACKEND_FEEHICMS' => 'usov4msk50h1mdqn245dqcm3d4'
+    '_csrf_backend' => '9a27aa7f40708d308b8ad8ba6f3b790d866c9f122f91fd1c89d625f5c509d84fa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"oyDyvn_i-rIDv1ye3q-KuNKg4FY5h9UI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2296'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/static/img/pc_loginBg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/static/img/pc_loginBg.jpg'
+    'REMOTE_PORT' => '10058'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; BACKEND_FEEHICMS=usov4msk50h1mdqn245dqcm3d4; _csrf_backend=9a27aa7f40708d308b8ad8ba6f3b790d866c9f122f91fd1c89d625f5c509d84fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22oyDyvn_i-rIDv1ye3q-KuNKg4FY5h9UI%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587797520.0685
+    'REQUEST_TIME' => 1587797520
+]
+2020-04-25 21:35:06 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/Navigationbar/images/20200425213503_5ea43c87e2aa6.jpg". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/Navigat...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-25 21:35:03 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => 'pd2smgi47kncohot1i5nbgh543'
+    '_csrf' => 'ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo\";}'
+    'BACKEND_FEEHICMS' => 'n73teogt4jn64cm6ng50ragi91'
+    '_csrf_backend' => '3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"naGRhySCUsGKvEB6GxgTp37nn-hkcqVp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2708'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/uploads/Navigationbar/images/20200425213503_5ea43c87e2aa6.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/uploads/Navigationbar/images/20200425213503_5ea43c87e2aa6.jpg'
+    'REMOTE_PORT' => '13524'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=pd2smgi47kncohot1i5nbgh543; _csrf=ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo%22%3B%7D; BACKEND_FEEHICMS=n73teogt4jn64cm6ng50ragi91; _csrf_backend=3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22naGRhySCUsGKvEB6GxgTp37nn-hkcqVp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=navigationbar%2Fcreate'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587821703.9561
+    'REQUEST_TIME' => 1587821703
+]
+2020-04-25 21:35:16 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/Navigationbar/images/20200425213513_5ea43c9187c8e.jpg". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/Navigat...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-25 21:35:14 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => 'pd2smgi47kncohot1i5nbgh543'
+    '_csrf' => 'ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo\";}'
+    'BACKEND_FEEHICMS' => 'n73teogt4jn64cm6ng50ragi91'
+    '_csrf_backend' => '3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"naGRhySCUsGKvEB6GxgTp37nn-hkcqVp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2604'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/uploads/Navigationbar/images/20200425213513_5ea43c9187c8e.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/uploads/Navigationbar/images/20200425213513_5ea43c9187c8e.jpg'
+    'REMOTE_PORT' => '13536'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=pd2smgi47kncohot1i5nbgh543; _csrf=ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo%22%3B%7D; BACKEND_FEEHICMS=n73teogt4jn64cm6ng50ragi91; _csrf_backend=3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22naGRhySCUsGKvEB6GxgTp37nn-hkcqVp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=navigationbar%2Fcreate'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587821714.6364
+    'REQUEST_TIME' => 1587821714
+]
+2020-04-25 21:40:48 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/Navigationbar/images/20200425214046_5ea43dde767fb.png". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/Navigat...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-25 21:40:46 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => 'pd2smgi47kncohot1i5nbgh543'
+    '_csrf' => 'ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo\";}'
+    'BACKEND_FEEHICMS' => 'n73teogt4jn64cm6ng50ragi91'
+    '_csrf_backend' => '3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"naGRhySCUsGKvEB6GxgTp37nn-hkcqVp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2632'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/uploads/Navigationbar/images/20200425214046_5ea43dde767fb.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/uploads/Navigationbar/images/20200425214046_5ea43dde767fb.png'
+    'REMOTE_PORT' => '13668'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=pd2smgi47kncohot1i5nbgh543; _csrf=ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo%22%3B%7D; BACKEND_FEEHICMS=n73teogt4jn64cm6ng50ragi91; _csrf_backend=3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22naGRhySCUsGKvEB6GxgTp37nn-hkcqVp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=navigationbar%2Fcreate'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587822046.517
+    'REQUEST_TIME' => 1587822046
+]
+2020-04-25 21:42:03 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/Navigationbar/images/20200425214201_5ea43e29ba73c.png". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/Navigat...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-25 21:42:01 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => 'pd2smgi47kncohot1i5nbgh543'
+    '_csrf' => 'ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo\";}'
+    'BACKEND_FEEHICMS' => 'n73teogt4jn64cm6ng50ragi91'
+    '_csrf_backend' => '3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"naGRhySCUsGKvEB6GxgTp37nn-hkcqVp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2608'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/uploads/Navigationbar/images/20200425214201_5ea43e29ba73c.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/uploads/Navigationbar/images/20200425214201_5ea43e29ba73c.png'
+    'REMOTE_PORT' => '13725'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=pd2smgi47kncohot1i5nbgh543; _csrf=ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo%22%3B%7D; BACKEND_FEEHICMS=n73teogt4jn64cm6ng50ragi91; _csrf_backend=3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22naGRhySCUsGKvEB6GxgTp37nn-hkcqVp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=navigationbar%2Fcreate'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587822121.7937
+    'REQUEST_TIME' => 1587822121
+]
+2020-04-25 21:42:59 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "uploads/Navigationbar/images/20200425214257_5ea43e617d7ca.png". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('uploads/Navigat...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-25 21:42:57 [127.0.0.1][1][pd2smgi47kncohot1i5nbgh543][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => 'pd2smgi47kncohot1i5nbgh543'
+    '_csrf' => 'ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo\";}'
+    'BACKEND_FEEHICMS' => 'n73teogt4jn64cm6ng50ragi91'
+    '_csrf_backend' => '3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"naGRhySCUsGKvEB6GxgTp37nn-hkcqVp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2604'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/uploads/Navigationbar/images/20200425214257_5ea43e617d7ca.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/uploads/Navigationbar/images/20200425214257_5ea43e617d7ca.png'
+    'REMOTE_PORT' => '13746'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=pd2smgi47kncohot1i5nbgh543; _csrf=ea09b7ec34c300c4e9da65f8b633cc7439d6849396672cd1e158fef7604f97b3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22THMr9o94uKBkWRQTVT5jL_7w-xwFmIlo%22%3B%7D; BACKEND_FEEHICMS=n73teogt4jn64cm6ng50ragi91; _csrf_backend=3840325cc01f8779045a7d6a4f732c9ffac8c8bf8f20c010d4b79af71f08a940a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22naGRhySCUsGKvEB6GxgTp37nn-hkcqVp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=navigationbar%2Fcreate'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587822177.556
+    'REQUEST_TIME' => 1587822177
+]

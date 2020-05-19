@@ -1,0 +1,2964 @@
+2020-05-14 02:34:37 [192.168.1.139][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list' in D:\php code\qd\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT `id`, `n...')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\api\controllers\NavigationbarController.php(41): yii\db\ActiveQuery->all()
+#6 [internal function]: api\controllers\NavigationbarController->actionCateindex()
+#7 D:\php code\qd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cateindex', Array)
+#10 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/navigationba...', Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'
+The SQL being executed was: SELECT `id`, `name`, `image`, `location` FROM `qd_navigationbar` WHERE (`status`=1) AND (`location`=1) in D:\php code\qd\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT `id`, `n...')
+#1 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT `id`, `n...')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\api\controllers\NavigationbarController.php(41): yii\db\ActiveQuery->all()
+#6 [internal function]: api\controllers\NavigationbarController->actionCateindex()
+#7 D:\php code\qd\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('cateindex', Array)
+#10 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/navigationba...', Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'name' in 'field list'
+)
+
+2020-05-14 02:34:37 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:34:33 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '8'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/navigationbar/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/navigationbar/cateindex'
+    'REMOTE_PORT' => '3949'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------924321363958775762896500'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'c69bf97b-b200-4f2e-83ff-bccc06db0ebd'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589423673.7618
+    'REQUEST_TIME' => 1589423673
+]
+2020-05-14 02:39:15 [192.168.1.139][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "v1/category/cateindex". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/category/cat...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#2 {main}
+2020-05-14 02:39:15 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:39:15 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:39:15 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '3992'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------378618853494143788166326'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '1d88fea8-2de7-4d7f-bd9f-653242f8f8a7'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589423955.7008
+    'REQUEST_TIME' => 1589423955
+]
+2020-05-14 02:39:20 [192.168.1.139][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "v1/category/cateindex". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/category/cat...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#2 {main}
+2020-05-14 02:39:20 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:39:20 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:39:20 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '3992'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------838012415808995439004009'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '02388e07-60a0-4a70-bc5a-e6c07ea706e3'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589423960.6526
+    'REQUEST_TIME' => 1589423960
+]
+2020-05-14 02:39:28 [192.168.1.139][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "v1/category/cateindex". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/category/cat...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#2 {main}
+2020-05-14 02:39:28 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:39:28 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:39:28 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '3993'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------857503044599210972733047'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'ba39acfe-a33a-490b-9e5a-59e3a481cc8e'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589423968.9073
+    'REQUEST_TIME' => 1589423968
+]
+2020-05-14 02:40:06 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:40:03 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '3994'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------786079053055482926150714'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'c533b42a-952f-4d0e-90e8-735151a99c4e'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424003.9687
+    'REQUEST_TIME' => 1589424003
+]
+2020-05-14 02:41:05 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:41:03 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '3998'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------209765998578984430957532'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '0129efd1-7023-49cd-8c39-1b1d1400ea94'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424063.039
+    'REQUEST_TIME' => 1589424063
+]
+2020-05-14 02:41:10 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:41:08 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '3998'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------098372741586992236672151'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '05062e16-92a0-4808-a4c1-b1504bb4d131'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424068.21
+    'REQUEST_TIME' => 1589424068
+]
+2020-05-14 02:41:17 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:41:15 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4003'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'd7893573-9976-4119-84c1-44665ec049d5'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424075.6727
+    'REQUEST_TIME' => 1589424075
+]
+2020-05-14 02:41:21 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:41:19 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4003'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '8b53d10a-22de-4339-8c75-ef51322e3919'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424079.1597
+    'REQUEST_TIME' => 1589424079
+]
+2020-05-14 02:43:45 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:43:42 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2372'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4013'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'f00f0869-34aa-4892-80b7-11ef2c527cf1'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424222.9721
+    'REQUEST_TIME' => 1589424222
+]
+2020-05-14 02:46:27 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:46:25 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2372'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4018'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'c04b91df-f2e4-43ce-82a2-86f5bd429a97'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424385.1195
+    'REQUEST_TIME' => 1589424385
+]
+2020-05-14 02:46:34 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:46:32 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2372'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4021'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'bc4a49c9-b9cd-4c9a-afe6-99edf662bb2f'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424392.5179
+    'REQUEST_TIME' => 1589424392
+]
+2020-05-14 02:46:41 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:46:39 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2372'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4021'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '8b807890-c9bb-4376-8d95-ff23d7edda67'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424399.3018
+    'REQUEST_TIME' => 1589424399
+]
+2020-05-14 02:47:09 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:47:07 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2372'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/navigationbar/index'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/navigationbar/index'
+    'REMOTE_PORT' => '4029'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '1bd4d418-e497-42ca-83d7-df248db418c0'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424427.2153
+    'REQUEST_TIME' => 1589424427
+]
+2020-05-14 02:47:39 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:47:37 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2372'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4032'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '6ee0cd7a-6eed-4ec0-81a9-5b5bd8f98aa6'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424457.4953
+    'REQUEST_TIME' => 1589424457
+]
+2020-05-14 02:51:19 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:51:17 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2372'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '4042'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '52400028-9afe-47a6-8a72-d60faaeabb5e'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589424677.7197
+    'REQUEST_TIME' => 1589424677
+]
+2020-05-14 02:57:58 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:57:56 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2372'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '4062'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'fc4c242d-0e08-42f2-9d03-8a0ba59adde5'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589425076.7579
+    'REQUEST_TIME' => 1589425076
+]
+2020-05-14 02:58:50 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:58:48 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2492'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '4066'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'a12262f6-ffab-4cfe-91e5-27b6c16ed218'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589425128.0451
+    'REQUEST_TIME' => 1589425128
+]
+2020-05-14 02:58:53 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 02:58:51 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2492'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '4066'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'e5d4b7b7-ae93-4dc8-8af7-9b5fa01f0e6c'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589425131.0895
+    'REQUEST_TIME' => 1589425131
+]
+2020-05-14 03:00:42 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 03:00:40 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2492'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '4081'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '727a5e54-ee82-459a-8543-50e09c4deeac'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589425240.2683
+    'REQUEST_TIME' => 1589425240
+]
+2020-05-14 03:00:45 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 03:00:43 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2492'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '4081'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '810247e5-b3ba-4779-9a35-a505e259b8c6'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589425243.6911
+    'REQUEST_TIME' => 1589425243
+]
+2020-05-14 03:00:48 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 03:00:46 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2492'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/category/cateindex'
+    'REMOTE_PORT' => '4081'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '9384a22f-9e05-4bf3-b23d-5af6f592086f'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589425246.494
+    'REQUEST_TIME' => 1589425246
+]
+2020-05-14 03:01:00 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 03:00:58 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2492'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4090'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '43deec9c-2392-4c9e-a8f4-64ff473bd912'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589425258.2052
+    'REQUEST_TIME' => 1589425258
+]
+2020-05-14 03:13:01 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 03:12:59 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/category/cateindex'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/category/cateindex'
+    'REMOTE_PORT' => '4258'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'b6bbd43f-4e8e-44f3-9b2f-f57c595358d6'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589425979.0896
+    'REQUEST_TIME' => 1589425979
+]
+2020-05-14 06:14:29 [192.168.1.139][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "v1/companyinfo". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/companyinfo', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\api\index.php(18): yii\base\Application->run()
+#2 {main}
+2020-05-14 06:14:29 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:14:29 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:14:29 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/companyinfo'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/companyinfo'
+    'REMOTE_PORT' => '5930'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'b2ed3e05-3d22-46d8-8969-b908bed6bf0c'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589436869.2945
+    'REQUEST_TIME' => 1589436869
+]
+2020-05-14 06:14:33 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:14:33 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5930'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '9580d2d6-4479-4001-a246-ac7ccfb091e3'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589436873.838
+    'REQUEST_TIME' => 1589436873
+]
+2020-05-14 06:14:44 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:14:43 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=1'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5931'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'bac57591-2934-43ed-a0b0-fece34e135c4'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589436883.9605
+    'REQUEST_TIME' => 1589436883
+]
+2020-05-14 06:14:45 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:14:45 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=1'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5931'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'd1dd17a3-a0db-42d8-9c54-28e23b91076c'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589436885.6392
+    'REQUEST_TIME' => 1589436885
+]
+2020-05-14 06:14:47 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:14:47 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=1'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5931'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '3aed195f-8d4e-4d3b-b8a2-9d71091c7ab3'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589436887.1462
+    'REQUEST_TIME' => 1589436887
+]
+2020-05-14 06:14:52 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:14:51 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5931'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '6882ba07-0385-4571-85f5-11d6e507f5f7'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589436891.9531
+    'REQUEST_TIME' => 1589436891
+]
+2020-05-14 06:14:53 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:14:53 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5931'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '9e5c75d1-7c72-410f-af58-d3ef736bc38c'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589436893.2221
+    'REQUEST_TIME' => 1589436893
+]
+2020-05-14 06:16:48 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:16:48 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5934'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'e675ddb4-6593-4671-845d-24c60d7cd45c'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437008.047
+    'REQUEST_TIME' => 1589437008
+]
+2020-05-14 06:16:49 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:16:49 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5934'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'e36aa53d-2357-420c-ab19-f5c76a5e45b5'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437009.4003
+    'REQUEST_TIME' => 1589437009
+]
+2020-05-14 06:16:50 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:16:50 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5934'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '5b599986-0b50-4bd8-8d3d-e69db1d104bf'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437010.6526
+    'REQUEST_TIME' => 1589437010
+]
+2020-05-14 06:17:58 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:17:58 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5935'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '406b6459-dfd4-4fb9-9f4d-13567ecc3a67'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437078.8439
+    'REQUEST_TIME' => 1589437078
+]
+2020-05-14 06:18:00 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:18:00 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5935'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'e32686d7-c696-4eb2-bb24-3f6e9032f620'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437080.0425
+    'REQUEST_TIME' => 1589437080
+]
+2020-05-14 06:18:01 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:18:01 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2368'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5935'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'c217aa5d-4893-4ac4-8807-f0a57ed4f6b3'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437081.6007
+    'REQUEST_TIME' => 1589437081
+]
+2020-05-14 06:23:47 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:23:47 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5993'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '007a870d-9a71-40d1-8238-de57cc896f01'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437427.4213
+    'REQUEST_TIME' => 1589437427
+]
+2020-05-14 06:23:48 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:23:48 [192.168.1.139][-][-][info][application] $_GET = [
+    'id' => '8'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info?id=8'
+    'QUERY_STRING' => 'id=8'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' => 'id=8'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '5993'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '17ba9093-f59c-40bd-8996-9389c1794f3a'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437428.7977
+    'REQUEST_TIME' => 1589437428
+]
+2020-05-14 06:25:05 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:25:03 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '1'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6005'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------037363628258755794708594'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '6d8ec211-5c44-434a-85f0-c4a67f472ba6'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437503.2698
+    'REQUEST_TIME' => 1589437503
+]
+2020-05-14 06:25:13 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:25:11 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '8'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6010'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------214722801013398229195199'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '5e6ae92e-7e74-40f0-bdc3-af5bbc679590'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437511.3495
+    'REQUEST_TIME' => 1589437511
+]
+2020-05-14 06:25:47 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:25:45 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '8'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6013'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------649569689502518622036861'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '3d770985-70ad-4b11-bd42-7bb2c1d7cabc'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437545.614
+    'REQUEST_TIME' => 1589437545
+]
+2020-05-14 06:26:46 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:26:44 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6017'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------593914391555379575015760'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '9b84121a-a1d0-4da2-9998-87a2a515fa91'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437604.7304
+    'REQUEST_TIME' => 1589437604
+]
+2020-05-14 06:29:17 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:29:15 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '8'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6113'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------988638969954361668153799'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '617c5c72-05ab-4676-a324-cde74e4278d5'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437755.3837
+    'REQUEST_TIME' => 1589437755
+]
+2020-05-14 06:29:33 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:29:31 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2300'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6116'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------864984448667384817999473'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '46afe733-6d22-4550-a99e-75dac29a1289'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589437771.833
+    'REQUEST_TIME' => 1589437771
+]
+2020-05-14 06:44:56 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:44:54 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2204'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6272'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------011946141831466190772731'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '3f015eef-b644-409a-b65b-677b5311f50b'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589438694.0891
+    'REQUEST_TIME' => 1589438694
+]
+2020-05-14 06:45:06 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:45:04 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '7'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2204'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6275'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '158'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------242993091704351423990697'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '9b8fab57-2c0e-4794-bad6-8203cf7faacd'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589438704.5415
+    'REQUEST_TIME' => 1589438704
+]
+2020-05-14 06:45:44 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:45:42 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2204'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6279'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------431997797337985095067941'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '8cd5833c-7893-4f8b-9122-07f0fc6bea29'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589438742.1014
+    'REQUEST_TIME' => 1589438742
+]
+2020-05-14 06:52:00 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:51:58 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2204'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6302'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------279193699405997107380953'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '59f2055d-acbe-4689-b80e-1ec14c8c5ce6'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589439118.5608
+    'REQUEST_TIME' => 1589439118
+]
+2020-05-14 06:59:02 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:58:59 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2204'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6410'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------466670473569131711978794'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => 'cfab4588-162b-4566-96c4-aba5166c88e3'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589439539.9875
+    'REQUEST_TIME' => 1589439539
+]
+2020-05-14 06:59:05 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:59:03 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2204'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6410'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------399987838581348239035382'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '84992c19-1d61-4a3d-9acd-dc99379ec9a9'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589439543.5121
+    'REQUEST_TIME' => 1589439543
+]
+2020-05-14 06:59:20 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:59:18 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2204'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6417'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------852293774687033992451933'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '161d3c8a-e6ce-4fde-b5ff-18428ceb7c5b'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589439558.248
+    'REQUEST_TIME' => 1589439558
+]
+2020-05-14 06:59:23 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-14 06:59:21 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = [
+    'id' => '15'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2204'
+    'SCRIPT_NAME' => '/api/index.php'
+    'REQUEST_URI' => '/api/v1/company/info'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/api/v1/company/info'
+    'REMOTE_PORT' => '6417'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'CONTENT_LENGTH' => '159'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------622405726607175690497476'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_HOST' => 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' => '87d3892a-1395-4819-aeb0-e786c5785922'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.24.1'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/api/index.php'
+    'REQUEST_TIME_FLOAT' => 1589439561.718
+    'REQUEST_TIME' => 1589439561
+]

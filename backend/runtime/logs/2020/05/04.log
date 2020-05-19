@@ -1,0 +1,439 @@
+2020-05-04 20:08:50 [127.0.0.1][1][pihd4mrg2unop058jq5a2rbm75][error][yii\db\Exception] yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'feehi.qd_article_content' doesn't exist
+The SQL being executed was: SELECT COUNT(*) FROM `qd_article` `article` LEFT JOIN `qd_article_content` ON `article`.`id` = `qd_article_content`.`aid` WHERE `type`=0 in D:\php code\qd\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(425): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(463): yii\db\Command->queryScalar()
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(352): yii\db\Query->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(347): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#6 D:\php code\qd\vendor\yiisoft\yii2\data\ActiveDataProvider.php(169): yii\db\Query->count('*', NULL)
+#7 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 D:\php code\qd\vendor\yiisoft\yii2\data\ActiveDataProvider.php(106): yii\data\BaseDataProvider->getTotalCount()
+#9 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(482): yii\data\BaseDataProvider->getModels()
+#12 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#13 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#14 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#15 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#16 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#18 D:\php code\qd\backend\grid\GridView.php(112): yii\widgets\BaseListView->run()
+#19 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140): backend\grid\GridView->run()
+#20 D:\php code\qd\backend\views\article\index.php(128): yii\base\Widget::widget(Array)
+#21 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#22 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', '[<span class="s...')
+#23 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\ArticleController))
+#24 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\ArticleController))
+#25 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#26 [internal function]: backend\actions\IndexAction->run()
+#27 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#28 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#29 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#30 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('article/index', Array)
+#31 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#32 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#33 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'feehi.qd_article_content' doesn't exist
+)
+
+2020-05-04 20:08:46 [127.0.0.1][1][pihd4mrg2unop058jq5a2rbm75][info][application] $_GET = [
+    'r' => 'article/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'i1ubn5290jt1k4dp3n65439tv0'
+    '_csrf' => 'e787b6993386d2a0084e647d45158ddbd5833351ca30fcbea5028deb67fa09dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a8jjt930_0HmiVbNtbj92EMSWTdTcyql\";}'
+    'BACKEND_FEEHICMS' => 'pihd4mrg2unop058jq5a2rbm75'
+    '_csrf_backend' => '7c7baa69d7a16b21a9f7fea5f691916f7f47623544a7382bea56aecb37d09df4a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QImeMdc3XFKzutgU1i-LvlHpaqnAqde5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'buga'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+    '_update_referer' => 'http://www.qd.com/admin/index.php?r=navigationbar%2Findex'
+    '_create_referer' => 'http://www.qd.com/admin/index.php?r=menu%2Findex'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2312'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=article%2Findex'
+    'QUERY_STRING' => 'r=article%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '8174'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=i1ubn5290jt1k4dp3n65439tv0; _csrf=e787b6993386d2a0084e647d45158ddbd5833351ca30fcbea5028deb67fa09dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a8jjt930_0HmiVbNtbj92EMSWTdTcyql%22%3B%7D; BACKEND_FEEHICMS=pihd4mrg2unop058jq5a2rbm75; _csrf_backend=7c7baa69d7a16b21a9f7fea5f691916f7f47623544a7382bea56aecb37d09df4a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QImeMdc3XFKzutgU1i-LvlHpaqnAqde5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588594126.2053
+    'REQUEST_TIME' => 1588594126
+]
+2020-05-04 20:11:27 [127.0.0.1][1][pihd4mrg2unop058jq5a2rbm75][error][yii\db\Exception] yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'feehi.qd_article_meta' doesn't exist
+The SQL being executed was: SELECT * FROM `qd_article_meta` WHERE (`key`='tag') AND (`aid`='15') in D:\php code\qd\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(399): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(237): yii\db\Command->queryAll()
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(186): yii\db\ActiveQuery->all()
+#6 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(301): yii\db\ActiveQuery->findFor('articleTags', Object(backend\models\Article))
+#7 D:\php code\qd\backend\models\Article.php(91): yii\db\BaseActiveRecord->__get('articleTags')
+#8 [internal function]: backend\models\Article->backend\models\{closure}()
+#9 D:\php code\qd\backend\models\Article.php(95): call_user_func(Object(Closure))
+#10 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Article->afterFind()
+#11 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#12 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#13 D:\php code\qd\vendor\yiisoft\yii2\data\ActiveDataProvider.php(116): yii\db\ActiveQuery->all(NULL)
+#14 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#15 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#16 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(482): yii\data\BaseDataProvider->getModels()
+#17 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#18 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#19 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#20 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#21 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#22 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#23 D:\php code\qd\backend\grid\GridView.php(112): yii\widgets\BaseListView->run()
+#24 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140): backend\grid\GridView->run()
+#25 D:\php code\qd\backend\views\article\index.php(128): yii\base\Widget::widget(Array)
+#26 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#27 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', '[<span class="s...')
+#28 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\ArticleController))
+#29 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\ArticleController))
+#30 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#31 [internal function]: backend\actions\IndexAction->run()
+#32 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#33 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#34 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#35 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('article/index', Array)
+#36 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#37 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#38 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'feehi.qd_article_meta' doesn't exist
+)
+
+2020-05-04 20:11:25 [127.0.0.1][1][pihd4mrg2unop058jq5a2rbm75][info][application] $_GET = [
+    'r' => 'article/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'i1ubn5290jt1k4dp3n65439tv0'
+    '_csrf' => 'e787b6993386d2a0084e647d45158ddbd5833351ca30fcbea5028deb67fa09dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a8jjt930_0HmiVbNtbj92EMSWTdTcyql\";}'
+    'BACKEND_FEEHICMS' => 'pihd4mrg2unop058jq5a2rbm75'
+    '_csrf_backend' => '7c7baa69d7a16b21a9f7fea5f691916f7f47623544a7382bea56aecb37d09df4a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QImeMdc3XFKzutgU1i-LvlHpaqnAqde5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'buga'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+    '_update_referer' => 'http://www.qd.com/admin/index.php?r=navigationbar%2Findex'
+    '_create_referer' => 'http://www.qd.com/admin/index.php?r=menu%2Findex'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2312'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=article%2Findex'
+    'QUERY_STRING' => 'r=article%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '8235'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=i1ubn5290jt1k4dp3n65439tv0; _csrf=e787b6993386d2a0084e647d45158ddbd5833351ca30fcbea5028deb67fa09dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a8jjt930_0HmiVbNtbj92EMSWTdTcyql%22%3B%7D; BACKEND_FEEHICMS=pihd4mrg2unop058jq5a2rbm75; _csrf_backend=7c7baa69d7a16b21a9f7fea5f691916f7f47623544a7382bea56aecb37d09df4a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QImeMdc3XFKzutgU1i-LvlHpaqnAqde5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588594285.51
+    'REQUEST_TIME' => 1588594285
+]
+2020-05-04 20:21:11 [127.0.0.1][1][pihd4mrg2unop058jq5a2rbm75][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\meta\ArticleMetaImages::created_at in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('created_at')
+#1 D:\php code\qd\vendor\yiisoft\yii2\validators\Validator.php(254): yii\db\BaseActiveRecord->__get('created_at')
+#2 D:\php code\qd\vendor\yiisoft\yii2\base\Model.php(367): yii\validators\Validator->validateAttributes(Object(common\models\meta\ArticleMetaImages), Array)
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveRecord.php(560): yii\base\Model->validate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#5 D:\php code\qd\common\models\meta\ArticleMetaImages.php(39): yii\db\BaseActiveRecord->save()
+#6 D:\php code\qd\backend\models\Article.php(50): common\models\meta\ArticleMetaImages->setImages('16', Array)
+#7 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveRecord.php(611): backend\models\Article->afterSave(true, Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#9 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#10 D:\php code\qd\backend\actions\CreateAction.php(64): yii\db\BaseActiveRecord->save()
+#11 [internal function]: backend\actions\CreateAction->run()
+#12 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('article/create', Array)
+#16 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#18 {main}
+2020-05-04 20:21:08 [127.0.0.1][1][pihd4mrg2unop058jq5a2rbm75][info][application] $_GET = [
+    'r' => 'article/create'
+]
+
+$_POST = [
+    '_csrf_backend' => 'WyUusH58DO50jArzrRdAGtM7LvCZg-YWTCLCT9yqAXsKbEPVMxhv3SzKQYnYYydP4lIDvO_vrmYtU6wOrc5kTg=='
+    'Article' => [
+        'title' => 'rr'
+        'thumb' => ''
+        'images' => [
+            0 => '/uploads/webuploader/20200504202101_5eb008ade451b.jpg'
+            1 => '/uploads/webuploader/20200504202103_5eb008aff3645.jpg'
+        ]
+        'content' => '<p>这是企服界的业务描述</p>'
+        'cid' => ''
+        'status' => '1'
+        'visibility' => '1'
+    ]
+    'images' => ''
+]
+
+$_FILES = [
+    'Article' => [
+        'name' => [
+            'thumb' => '4.jpg'
+        ]
+        'type' => [
+            'thumb' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'thumb' => 'C:\\Windows\\php50DE.tmp'
+        ]
+        'error' => [
+            'thumb' => 0
+        ]
+        'size' => [
+            'thumb' => 49672
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'i1ubn5290jt1k4dp3n65439tv0'
+    '_csrf' => 'e787b6993386d2a0084e647d45158ddbd5833351ca30fcbea5028deb67fa09dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a8jjt930_0HmiVbNtbj92EMSWTdTcyql\";}'
+    'BACKEND_FEEHICMS' => 'pihd4mrg2unop058jq5a2rbm75'
+    '_csrf_backend' => '7c7baa69d7a16b21a9f7fea5f691916f7f47623544a7382bea56aecb37d09df4a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QImeMdc3XFKzutgU1i-LvlHpaqnAqde5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'buga'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+    '_update_referer' => 'http://www.qd.com/admin/index.php?r=navigationbar%2Findex'
+    '_create_referer' => 'http://www.qd.com/admin/index.php?r=article%2Findex'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2144'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=article%2Fcreate'
+    'QUERY_STRING' => 'r=article%2Fcreate'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '8367'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=i1ubn5290jt1k4dp3n65439tv0; _csrf=e787b6993386d2a0084e647d45158ddbd5833351ca30fcbea5028deb67fa09dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a8jjt930_0HmiVbNtbj92EMSWTdTcyql%22%3B%7D; BACKEND_FEEHICMS=pihd4mrg2unop058jq5a2rbm75; _csrf_backend=7c7baa69d7a16b21a9f7fea5f691916f7f47623544a7382bea56aecb37d09df4a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QImeMdc3XFKzutgU1i-LvlHpaqnAqde5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=article%2Fcreate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryBpWn4qasxY7copl5'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.qd.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '51211'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588594868.3548
+    'REQUEST_TIME' => 1588594868
+]
+2020-05-04 20:32:49 [127.0.0.1][1][pihd4mrg2unop058jq5a2rbm75][error][Error] Error: Class 'backend\models\search\Article' not found in D:\php code\qd\backend\models\search\CompanySearch.php:67
+Stack trace:
+#0 D:\php code\qd\backend\controllers\CompanyController.php(32): backend\models\search\CompanySearch->search(Array)
+#1 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#2 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#3 [internal function]: backend\actions\IndexAction->run()
+#4 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#5 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#6 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#7 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#10 {main}
+2020-05-04 20:32:46 [127.0.0.1][1][pihd4mrg2unop058jq5a2rbm75][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'i1ubn5290jt1k4dp3n65439tv0'
+    '_csrf' => 'e787b6993386d2a0084e647d45158ddbd5833351ca30fcbea5028deb67fa09dfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a8jjt930_0HmiVbNtbj92EMSWTdTcyql\";}'
+    'BACKEND_FEEHICMS' => 'pihd4mrg2unop058jq5a2rbm75'
+    '_csrf_backend' => '7c7baa69d7a16b21a9f7fea5f691916f7f47623544a7382bea56aecb37d09df4a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"QImeMdc3XFKzutgU1i-LvlHpaqnAqde5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'buga'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+    '_update_referer' => 'http://www.qd.com/admin/index.php?r=menu%2Findex'
+    '_create_referer' => 'http://www.qd.com/admin/index.php?r=article%2Findex'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2516'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '8542'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=i1ubn5290jt1k4dp3n65439tv0; _csrf=e787b6993386d2a0084e647d45158ddbd5833351ca30fcbea5028deb67fa09dfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a8jjt930_0HmiVbNtbj92EMSWTdTcyql%22%3B%7D; BACKEND_FEEHICMS=pihd4mrg2unop058jq5a2rbm75; _csrf_backend=7c7baa69d7a16b21a9f7fea5f691916f7f47623544a7382bea56aecb37d09df4a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22QImeMdc3XFKzutgU1i-LvlHpaqnAqde5%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588595566.555
+    'REQUEST_TIME' => 1588595566
+]

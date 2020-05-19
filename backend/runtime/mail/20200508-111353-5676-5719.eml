@@ -1,0 +1,176 @@
+Message-ID: <447b956c9e94227537271a5dcd5c8de8@www.qd.com>
+Date: Fri, 08 May 2020 11:13:53 +0800
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA=E5=90=8E=E5=8F=B0?=
+ =?UTF-8?Q?=E7=9A=84=E6=96=B0=E6=97=A5=E5=BF=97=E6=B6=88=E6=81=AF?=
+From: Feehi CMS robot  <admin@feehi.com>
+To: 1770080861@qq.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-05-08 11:13:52
+[127.0.0.1][1][l7o8ifle126pr087c6ie037j32][error][yii\base\InvalidConfigE=
+xception]
+yii\base\InvalidConfigException: The "query" property must be an
+instance of a class that implements the QueryInterface e.g.
+yii\db\Query or its subclasses. in D:\php
+code\qd\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(101):
+yii\data\ActiveDataProvider->prepareModels()
+#1 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(114):
+yii\data\BaseDataProvider->prepare()
+#2 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(166):
+yii\data\BaseDataProvider->getModels()
+#3 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(131):
+yii\grid\DataColumn->getHeaderCellLabel()
+#4 D:\php code\qd\vendor\yiisoft\yii2\grid\Column.php(85):
+yii\grid\DataColumn->renderHeaderCellContent()
+#5 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(426):
+yii\grid\Column->renderHeaderCell()
+#6 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(357):
+yii\grid\GridView->renderTableHeader()
+#7 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160):
+yii\grid\GridView->renderItems()
+#8 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326):
+yii\widgets\BaseListView->renderSection('{items}')
+#9 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135):
+yii\grid\GridView->renderSection('{items}')
+#10 [internal function]:
+yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138):
+preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div
+cl...')
+#12 D:\php code\qd\backend\grid\GridView.php(112):
+yii\widgets\BaseListView->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140):
+backend\grid\GridView->run()
+#14 D:\php code\qd\backend\views\company\index.php(108):
+yii\base\Widget::widget(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348):
+require('D:\\php code\\qd\\...')
+#16 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257):
+yii\base\View->renderPhpFile('D:\\php code\\qd\\...', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156):
+yii\base\View->renderFile('D:\\php code\\qd\\...', Array,
+Object(backend\controllers\CompanyController))
+#18 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384):
+yii\base\View->render('index', Array,
+Object(backend\controllers\CompanyController))
+#19 D:\php code\qd\backend\actions\IndexAction.php(32):
+yii\base\Controller->render('index', Array)
+#20 [internal function]: backend\actions\IndexAction->run()
+#21 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94):
+call_user_func_array(Array, Array)
+#22 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157):
+yii\base\Action->runWithParams(Array)
+#23 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528):
+yii\base\Controller->runAction('index', Array)
+#24 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103):
+yii\base\Module->runAction('company/index', Array)
+#25 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 D:\php code\qd\frontend\web\admin\index.php(18):
+yii\base\Application->run()
+#27 {main}
+2020-05-08 11:13:50
+[127.0.0.1][1][l7o8ifle126pr087c6ie037j32][info][application] $_GET =3D
+[
+    'r' =3D> 'company/index'
+]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    'PHPSESSID' =3D> 'a3jlvj4ktrat7ackhbs64pgqg1'
+    '_csrf' =3D>
+'2e2f298e66a6437a399f7cb42ec45dca9e33f0e783e2100cc53c2af0b9db6e9ba:2:{i:0;=
+s:5:\"_csrf\";i:1;s:32:\"WI79HxZcu4P5bfa9rHHZbga2BC_Xvp8m\";}'
+    'BACKEND_FEEHICMS' =3D> 'l7o8ifle126pr087c6ie037j32'
+    '_csrf_backend' =3D>
+'5f1316ea420ece11ff50cc252a55eeca338ee8dc9997e1afa7d2e1146e3b11b8a:2:{i:0;s=
+:13:\"_csrf_backend\";i:1;s:32:\"NGTsmOnz9LpLFjAWX7GZoeJino5yr3MO\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+    '_backend_returnUrl' =3D> '/admin/'
+    '__captcha/site/captcha' =3D> 'zeto'
+    '__captcha/site/captchacount' =3D> 1
+    '__backend__id' =3D> '1'
+]
+
+$_SERVER =3D [
+    'PATH' =3D> 'C:\\Program Files (x86)\\Intel\\Intel(R) Management
+Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R)
+Management Engine
+Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\=
+\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\Syst=
+em32\\OpenSSH\\;C:\\Program
+Files (x86)\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files (x86)\\NVIDIA
+Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WIND=
+OWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\Syste=
+m32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpS=
+tudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program
+Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApp=
+s;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Loc=
+al\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\=
+\vendor\\bin'
+    'SYSTEMROOT' =3D> 'C:\\WINDOWS'
+    'COMSPEC' =3D> 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' =3D> 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' =3D> '1000'
+    'PHPRC' =3D> 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' =3D> '2364'
+    'SCRIPT_NAME' =3D> '/admin/index.php'
+    'REQUEST_URI' =3D> '/admin/index.php?r=3Dcompany%2Findex'
+    'QUERY_STRING' =3D> 'r=3Dcompany%2Findex'
+    'REQUEST_METHOD' =3D> 'GET'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'REMOTE_PORT' =3D> '2268'
+    'SCRIPT_FILENAME' =3D> 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' =3D> 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'http'
+    'DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' =3D> '127.0.0.1'
+    'SERVER_PORT' =3D> '80'
+    'SERVER_ADDR' =3D> '127.0.0.1'
+    'SERVER_NAME' =3D> 'www.qd.com'
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j
+mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' =3D> ''
+    'SystemRoot' =3D> 'C:\\WINDOWS'
+    'HTTP_COOKIE' =3D> 'PHPSESSID=3Da3jlvj4ktrat7ackhbs64pgqg1;
+_csrf=3D2e2f298e66a6437a399f7cb42ec45dca9e33f0e783e2100cc53c2af0b9db6e9ba=
+%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22WI79HxZcu4P5=
+bfa9rHHZbga2BC_Xvp8m%22%3B%7D;
+BACKEND_FEEHICMS=3Dl7o8ifle126pr087c6ie037j32;
+_csrf_backend=3D5f1316ea420ece11ff50cc252a55eeca338ee8dc9997e1afa7d2e1146e3=
+b11b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A=
+%22NGTsmOnz9LpLFjAWX7GZoeJino5yr3MO%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate'
+    'HTTP_REFERER' =3D> 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,application/xml;q=3D0.9,image/webp,image/a=
+png,*/*;q=3D0.8,application/signed-exchange;v=3Db3'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 10.0; WOW64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100
+Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_CONNECTION' =3D> 'close'
+    'HTTP_HOST' =3D> 'www.qd.com'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/admin/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1588907629.9954
+    'REQUEST_TIME' =3D> 1588907629
+]

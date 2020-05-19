@@ -1,0 +1,2653 @@
+2020-05-07 09:56:54 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:56:51 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9547'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816610.8302
+    'REQUEST_TIME' => 1588816610
+]
+2020-05-07 09:56:57 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\site\login.php:117
+    in D:\php code\qd\backend\controllers\SiteController.php:195
+2020-05-07 09:56:57 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:56:55 [192.168.1.139][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'BACKEND_FEEHICMS' => 't552di0b3ahnidpjp6kievs045'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'qoru'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Flogin'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9547'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'BACKEND_FEEHICMS=t552di0b3ahnidpjp6kievs045'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816615.0862
+    'REQUEST_TIME' => 1588816615
+]
+2020-05-07 09:57:00 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:56:58 [192.168.1.139][-][-][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '5eb36ae9c2c9f7.14478162'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'BACKEND_FEEHICMS' => 't552di0b3ahnidpjp6kievs045'
+    '_csrf_backend' => '6a0731330fb6a49b37680e67d6b42caa8e615fa71c639e57ca8c8857515ab514a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"XEJxDIS3SGN3sxboi2aG-sxnaEBwiwil\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'qoru'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Fcaptcha&v=5eb36ae9c2c9f7.14478162'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=5eb36ae9c2c9f7.14478162'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9555'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'BACKEND_FEEHICMS=t552di0b3ahnidpjp6kievs045; _csrf_backend=6a0731330fb6a49b37680e67d6b42caa8e615fa71c639e57ca8c8857515ab514a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22XEJxDIS3SGN3sxboi2aG-sxnaEBwiwil%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816617.9883
+    'REQUEST_TIME' => 1588816617
+]
+2020-05-07 09:57:09 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:57:07 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf_backend' => '9bXBaFTeMNjo01IGEJrzsGoBX8u7J_SKWEIDLH-mqDGt8IsQEJdj67uUHDVj4pHfAzM-jJZUjOQ5B0FbFtHBXQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123'
+        'captcha' => 'qoru'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'BACKEND_FEEHICMS' => 't552di0b3ahnidpjp6kievs045'
+    '_csrf_backend' => '6a0731330fb6a49b37680e67d6b42caa8e615fa71c639e57ca8c8857515ab514a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"XEJxDIS3SGN3sxboi2aG-sxnaEBwiwil\";}'
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Flogin'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9564'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'BACKEND_FEEHICMS=t552di0b3ahnidpjp6kievs045; _csrf_backend=6a0731330fb6a49b37680e67d6b42caa8e615fa71c639e57ca8c8857515ab514a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22XEJxDIS3SGN3sxboi2aG-sxnaEBwiwil%22%3B%7D; PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.qd.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '206'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816627.1124
+    'REQUEST_TIME' => 1588816627
+]
+2020-05-07 09:57:12 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\site\index.php:235
+    in D:\php code\qd\backend\controllers\SiteController.php:82
+2020-05-07 09:57:12 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:57:10 [192.168.1.139][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9564'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816630.0708
+    'REQUEST_TIME' => 1588816630
+]
+2020-05-07 09:57:15 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\layouts\main.php:33
+    in D:\php code\qd\backend\controllers\SiteController.php:175
+2020-05-07 09:57:15 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:57:12 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Fmain'
+    'QUERY_STRING' => 'r=site%2Fmain'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9573'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816632.6905
+    'REQUEST_TIME' => 1588816632
+]
+2020-05-07 09:57:17 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\layouts\main.php:33
+    in D:\php code\qd\backend\controllers\SiteController.php:175
+2020-05-07 09:57:17 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:57:15 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'site/main'
+    'callback' => 'jQuery34108122959730937358_1588816635455'
+    '_' => '1588816635456'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Fmain&callback=jQuery34108122959730937358_1588816635455&_=1588816635456'
+    'QUERY_STRING' => 'r=site%2Fmain&callback=jQuery34108122959730937358_1588816635455&_=1588816635456'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9573'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Fmain'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'mXDj1lX5lIR040fBBUV_oCCuQ1swa4AUcEmg6BnfJDjwN7OHHq_C4B7aFIlzIgzqGfZyMVw-zlJDAumLWJxuTQ=='
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816635.5012
+    'REQUEST_TIME' => 1588816635
+]
+2020-05-07 09:57:22 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\layouts\main.php:33
+    in D:\php code\qd\backend\actions\IndexAction.php:32
+2020-05-07 09:57:22 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:57:18 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'category/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=category%2Findex'
+    'QUERY_STRING' => 'r=category%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9573'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816638.3024
+    'REQUEST_TIME' => 1588816638
+]
+2020-05-07 09:57:26 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Company::thumb in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('thumb')
+#1 D:\php code\qd\common\models\Company.php(144): yii\db\BaseActiveRecord->__get('thumb')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): common\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\models\Company.php(37): yii\db\ActiveQuery->all()
+#6 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#7 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#10 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#11 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#12 [internal function]: backend\actions\IndexAction->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#19 {main}
+2020-05-07 09:57:26 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:57:26 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 09:57:24 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9573'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588816644.3124
+    'REQUEST_TIME' => 1588816644
+]
+2020-05-07 10:09:48 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Company::thumb in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('thumb')
+#1 D:\php code\qd\common\models\Company.php(144): yii\db\BaseActiveRecord->__get('thumb')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): common\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\models\Company.php(37): yii\db\ActiveQuery->all()
+#6 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#7 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#10 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#11 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#12 [internal function]: backend\actions\IndexAction->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#19 {main}
+2020-05-07 10:09:48 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:09:48 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:09:46 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9699'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588817386.1249
+    'REQUEST_TIME' => 1588817386
+]
+2020-05-07 10:09:52 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Company::thumb in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('thumb')
+#1 D:\php code\qd\common\models\Company.php(144): yii\db\BaseActiveRecord->__get('thumb')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): common\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\models\Company.php(37): yii\db\ActiveQuery->all()
+#6 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#7 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#10 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#11 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#12 [internal function]: backend\actions\IndexAction->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#19 {main}
+2020-05-07 10:09:52 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:09:52 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:09:50 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9702'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588817390.7618
+    'REQUEST_TIME' => 1588817390
+]
+2020-05-07 10:10:00 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\layouts\main.php:33
+    in D:\php code\qd\backend\actions\IndexAction.php:32
+2020-05-07 10:10:00 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:09:58 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'navigationbar/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2164'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=navigationbar%2Findex'
+    'QUERY_STRING' => 'r=navigationbar%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9706'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588817398.392
+    'REQUEST_TIME' => 1588817398
+]
+2020-05-07 10:19:43 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Unknown key:2 in D:\php code\qd\common\libs\Constants.php:157
+Stack trace:
+#0 D:\php code\qd\common\libs\Constants.php(104): common\libs\Constants::getItems(Array, 2)
+#1 D:\php code\qd\backend\views\navigationbar\index.php(87): common\libs\Constants::getNavigationStatus(2)
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\form\NavigationForm), '7', 6, Object(backend\grid\DataColumn))
+#3 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(230): call_user_func(Object(Closure), Object(backend\models\form\NavigationForm), '7', 6, Object(backend\grid\DataColumn))
+#4 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(backend\models\form\NavigationForm), '7', 6)
+#5 D:\php code\qd\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(backend\models\form\NavigationForm), '7', 6)
+#6 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(backend\models\form\NavigationForm), '7', 6)
+#7 D:\php code\qd\backend\grid\GridView.php(81): yii\grid\GridView->renderTableRow(Object(backend\models\form\NavigationForm), '7', 6)
+#8 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(494): backend\grid\GridView->renderTableRow(Object(backend\models\form\NavigationForm), '7', 6)
+#9 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#10 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#11 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#12 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#15 D:\php code\qd\backend\grid\GridView.php(112): yii\widgets\BaseListView->run()
+#16 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140): backend\grid\GridView->run()
+#17 D:\php code\qd\backend\views\navigationbar\index.php(101): yii\base\Widget::widget(Array)
+#18 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#19 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', Array)
+#20 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\NavigationbarController))
+#21 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\NavigationbarController))
+#22 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#23 [internal function]: backend\actions\IndexAction->run()
+#24 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#25 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#26 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#27 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('navigationbar/i...', Array)
+#28 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#30 {main}
+2020-05-07 10:19:43 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:19:43 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:19:41 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'navigationbar/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=navigationbar%2Findex'
+    'QUERY_STRING' => 'r=navigationbar%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9768'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588817981.4185
+    'REQUEST_TIME' => 1588817981
+]
+2020-05-07 10:19:51 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Unknown key:2 in D:\php code\qd\common\libs\Constants.php:157
+Stack trace:
+#0 D:\php code\qd\common\libs\Constants.php(104): common\libs\Constants::getItems(Array, 2)
+#1 D:\php code\qd\backend\views\navigationbar\index.php(87): common\libs\Constants::getNavigationStatus(2)
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\form\NavigationForm), '7', 6, Object(backend\grid\DataColumn))
+#3 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(230): call_user_func(Object(Closure), Object(backend\models\form\NavigationForm), '7', 6, Object(backend\grid\DataColumn))
+#4 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(backend\models\form\NavigationForm), '7', 6)
+#5 D:\php code\qd\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(backend\models\form\NavigationForm), '7', 6)
+#6 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(backend\models\form\NavigationForm), '7', 6)
+#7 D:\php code\qd\backend\grid\GridView.php(81): yii\grid\GridView->renderTableRow(Object(backend\models\form\NavigationForm), '7', 6)
+#8 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(494): backend\grid\GridView->renderTableRow(Object(backend\models\form\NavigationForm), '7', 6)
+#9 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#10 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#11 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#12 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#15 D:\php code\qd\backend\grid\GridView.php(112): yii\widgets\BaseListView->run()
+#16 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140): backend\grid\GridView->run()
+#17 D:\php code\qd\backend\views\navigationbar\index.php(101): yii\base\Widget::widget(Array)
+#18 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#19 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', Array)
+#20 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\NavigationbarController))
+#21 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\NavigationbarController))
+#22 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#23 [internal function]: backend\actions\IndexAction->run()
+#24 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#25 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#26 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#27 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('navigationbar/i...', Array)
+#28 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#30 {main}
+2020-05-07 10:19:51 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:19:51 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:19:49 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'navigationbar/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=navigationbar%2Findex'
+    'QUERY_STRING' => 'r=navigationbar%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9776'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588817989.3214
+    'REQUEST_TIME' => 1588817989
+]
+2020-05-07 10:37:50 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Unknown key:2 in D:\php code\qd\common\libs\Constants.php:157
+Stack trace:
+#0 D:\php code\qd\common\libs\Constants.php(104): common\libs\Constants::getItems(Array, 2)
+#1 D:\php code\qd\backend\views\navigationbar\index.php(87): common\libs\Constants::getNavigationStatus(2)
+#2 [internal function]: yii\base\View->{closure}(Object(backend\models\form\NavigationForm), '7', 6, Object(backend\grid\DataColumn))
+#3 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(230): call_user_func(Object(Closure), Object(backend\models\form\NavigationForm), '7', 6, Object(backend\grid\DataColumn))
+#4 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(244): yii\grid\DataColumn->getDataCellValue(Object(backend\models\form\NavigationForm), '7', 6)
+#5 D:\php code\qd\vendor\yiisoft\yii2\grid\Column.php(111): yii\grid\DataColumn->renderDataCellContent(Object(backend\models\form\NavigationForm), '7', 6)
+#6 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(525): yii\grid\Column->renderDataCell(Object(backend\models\form\NavigationForm), '7', 6)
+#7 D:\php code\qd\backend\grid\GridView.php(81): yii\grid\GridView->renderTableRow(Object(backend\models\form\NavigationForm), '7', 6)
+#8 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(494): backend\grid\GridView->renderTableRow(Object(backend\models\form\NavigationForm), '7', 6)
+#9 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(358): yii\grid\GridView->renderTableBody()
+#10 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#11 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#12 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#15 D:\php code\qd\backend\grid\GridView.php(112): yii\widgets\BaseListView->run()
+#16 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140): backend\grid\GridView->run()
+#17 D:\php code\qd\backend\views\navigationbar\index.php(101): yii\base\Widget::widget(Array)
+#18 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#19 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', Array)
+#20 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\NavigationbarController))
+#21 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\NavigationbarController))
+#22 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#23 [internal function]: backend\actions\IndexAction->run()
+#24 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#25 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#26 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#27 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('navigationbar/i...', Array)
+#28 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#30 {main}
+2020-05-07 10:37:50 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:37:50 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:37:48 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'navigationbar/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=navigationbar%2Findex'
+    'QUERY_STRING' => 'r=navigationbar%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '9823'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588819068.1432
+    'REQUEST_TIME' => 1588819068
+]
+2020-05-07 10:51:35 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\layouts\main.php:33
+    in D:\php code\qd\backend\actions\IndexAction.php:32
+2020-05-07 10:51:35 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 10:51:33 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'navigationbar/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2184'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=navigationbar%2Findex'
+    'QUERY_STRING' => 'r=navigationbar%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '10067'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588819893.3394
+    'REQUEST_TIME' => 1588819893
+]
+2020-05-07 17:27:12 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Company::thumb in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('thumb')
+#1 D:\php code\qd\common\models\Company.php(144): yii\db\BaseActiveRecord->__get('thumb')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): common\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\models\Company.php(37): yii\db\ActiveQuery->all()
+#6 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#7 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#10 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#11 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#12 [internal function]: backend\actions\IndexAction->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#19 {main}
+2020-05-07 17:27:12 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:27:12 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:27:09 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13518'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588843629.1829
+    'REQUEST_TIME' => 1588843629
+]
+2020-05-07 17:30:35 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Company::thumb in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('thumb')
+#1 D:\php code\qd\common\models\Company.php(144): yii\db\BaseActiveRecord->__get('thumb')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): common\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\models\Company.php(37): yii\db\ActiveQuery->all()
+#6 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#7 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#10 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#11 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#12 [internal function]: backend\actions\IndexAction->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#19 {main}
+2020-05-07 17:30:35 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:30:35 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:30:33 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13545'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588843833.0856
+    'REQUEST_TIME' => 1588843833
+]
+2020-05-07 17:30:41 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Company::thumb in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('thumb')
+#1 D:\php code\qd\common\models\Company.php(144): yii\db\BaseActiveRecord->__get('thumb')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): common\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\models\Company.php(37): yii\db\ActiveQuery->all()
+#6 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#7 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#10 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#11 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#12 [internal function]: backend\actions\IndexAction->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#14 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#19 {main}
+2020-05-07 17:30:41 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:30:41 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:30:39 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13548'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588843839.2533
+    'REQUEST_TIME' => 1588843839
+]
+2020-05-07 17:32:13 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: backend\models\Company::info in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:209
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(324): yii\base\Component->__set('info', Array)
+#1 D:\php code\qd\backend\models\Company.php(37): yii\db\BaseActiveRecord->__set('info', Array)
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#6 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#7 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#8 [internal function]: backend\actions\IndexAction->run()
+#9 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#10 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#12 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#15 {main}
+2020-05-07 17:32:13 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:32:13 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:32:11 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13555'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588843931.5589
+    'REQUEST_TIME' => 1588843931
+]
+2020-05-07 17:32:18 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: backend\models\Company::info in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:209
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(324): yii\base\Component->__set('info', Array)
+#1 D:\php code\qd\backend\models\Company.php(37): yii\db\BaseActiveRecord->__set('info', Array)
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#6 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#7 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#8 [internal function]: backend\actions\IndexAction->run()
+#9 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#10 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#12 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#15 {main}
+2020-05-07 17:32:18 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:32:18 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:32:16 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2260'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13560'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588843936.5158
+    'REQUEST_TIME' => 1588843936
+]
+2020-05-07 17:39:04 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: backend\models\Company::info in D:\php code\qd\vendor\yiisoft\yii2\base\Component.php:209
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(324): yii\base\Component->__set('info', Array)
+#1 D:\php code\qd\backend\models\Company.php(37): yii\db\BaseActiveRecord->__set('info', Array)
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(233): backend\models\Company->afterFind()
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(238): yii\db\ActiveQuery->populate(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#5 D:\php code\qd\backend\controllers\CompanyController.php(34): yii\db\ActiveQuery->all()
+#6 [internal function]: backend\controllers\CompanyController->backend\controllers\{closure}()
+#7 D:\php code\qd\backend\actions\IndexAction.php(29): call_user_func(Object(Closure))
+#8 [internal function]: backend\actions\IndexAction->run()
+#9 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#10 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#12 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#15 {main}
+2020-05-07 17:39:05 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:39:05 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:39:01 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2564'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13638'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588844341.499
+    'REQUEST_TIME' => 1588844341
+]
+2020-05-07 17:43:17 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: searchModel in D:\php code\qd\backend\views\company\index.php:45
+Stack trace:
+#0 D:\php code\qd\backend\views\company\index.php(45): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\php code\\qd\\...', 45, Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#2 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', Array)
+#3 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\CompanyController))
+#4 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\CompanyController))
+#5 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#6 [internal function]: backend\actions\IndexAction->run()
+#7 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#9 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#10 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#13 {main}
+2020-05-07 17:43:17 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:43:14 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2564'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13656'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588844594.9746
+    'REQUEST_TIME' => 1588844594
+]
+2020-05-07 17:46:30 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses. in D:\php code\qd\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#1 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#2 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(166): yii\data\BaseDataProvider->getModels()
+#3 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(131): yii\grid\DataColumn->getHeaderCellLabel()
+#4 D:\php code\qd\vendor\yiisoft\yii2\grid\Column.php(85): yii\grid\DataColumn->renderHeaderCellContent()
+#5 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(426): yii\grid\Column->renderHeaderCell()
+#6 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(357): yii\grid\GridView->renderTableHeader()
+#7 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#8 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#9 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#12 D:\php code\qd\backend\grid\GridView.php(112): yii\widgets\BaseListView->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140): backend\grid\GridView->run()
+#14 D:\php code\qd\backend\views\company\index.php(107): yii\base\Widget::widget(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#16 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\CompanyController))
+#18 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\CompanyController))
+#19 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#20 [internal function]: backend\actions\IndexAction->run()
+#21 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#22 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#23 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#24 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#25 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#27 {main}
+2020-05-07 17:46:30 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:46:30 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:46:28 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2512'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13673'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588844788.4188
+    'REQUEST_TIME' => 1588844788
+]
+2020-05-07 17:49:48 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses. in D:\php code\qd\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#1 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#2 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(166): yii\data\BaseDataProvider->getModels()
+#3 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(131): yii\grid\DataColumn->getHeaderCellLabel()
+#4 D:\php code\qd\vendor\yiisoft\yii2\grid\Column.php(85): yii\grid\DataColumn->renderHeaderCellContent()
+#5 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(426): yii\grid\Column->renderHeaderCell()
+#6 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(357): yii\grid\GridView->renderTableHeader()
+#7 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#8 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#9 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#12 D:\php code\qd\backend\grid\GridView.php(112): yii\widgets\BaseListView->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140): backend\grid\GridView->run()
+#14 D:\php code\qd\backend\views\company\index.php(108): yii\base\Widget::widget(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#16 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\CompanyController))
+#18 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\CompanyController))
+#19 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#20 [internal function]: backend\actions\IndexAction->run()
+#21 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#22 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#23 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#24 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#25 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#27 {main}
+2020-05-07 17:49:48 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:49:48 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 17:49:46 [192.168.1.139][1][r6kr2godm9d09l5msubcjtesk4][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ccahmaadf5mubca03fe14n7rl7'
+    '_csrf' => 'c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ\";}'
+    'BACKEND_FEEHICMS' => 'r6kr2godm9d09l5msubcjtesk4'
+    '_csrf_backend' => '710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sutu'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2512'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13708'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=ccahmaadf5mubca03fe14n7rl7; _csrf=c57cf8759a31c5f56664efc2b7d14c4f907d76450baa01e621661cda509e24f1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JIBsZAYJrWpwRxe0deODpHTPfRQdP6qZ%22%3B%7D; BACKEND_FEEHICMS=r6kr2godm9d09l5msubcjtesk4; _csrf_backend=710bd43d9ee5113e1ca8f10f54c3af77f3063e13b5d9ef9e4da27e03463ab134a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22iGPQKVVdj9SHvgsJ9X1jlUNF3KIcACJu%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588844986.4992
+    'REQUEST_TIME' => 1588844986
+]
+2020-05-07 18:01:41 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:01:38 [192.168.1.139][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2484'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13779'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588845698.8285
+    'REQUEST_TIME' => 1588845698
+]
+2020-05-07 18:01:43 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\site\login.php:117
+    in D:\php code\qd\backend\controllers\SiteController.php:195
+2020-05-07 18:01:43 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:01:41 [192.168.1.139][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'BACKEND_FEEHICMS' => 'lt06bl3p7jhor9lum9nnrcqk90'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'leia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2484'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Flogin'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13779'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'BACKEND_FEEHICMS=lt06bl3p7jhor9lum9nnrcqk90'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588845701.0625
+    'REQUEST_TIME' => 1588845701
+]
+2020-05-07 18:01:45 [192.168.1.139][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:01:43 [192.168.1.139][-][-][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '5eb3dc8781af28.36133329'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'BACKEND_FEEHICMS' => 'lt06bl3p7jhor9lum9nnrcqk90'
+    '_csrf_backend' => 'e30bc03b4df7cea6f94b44c1f632af6e69719bb20f3a6c914ee4022f5d3c76bfa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"4nEYb2n-jNndo1Q_tXxKwN7di__mgyIM\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'leia'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2484'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Fcaptcha&v=5eb3dc8781af28.36133329'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=5eb3dc8781af28.36133329'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13779'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'BACKEND_FEEHICMS=lt06bl3p7jhor9lum9nnrcqk90; _csrf_backend=e30bc03b4df7cea6f94b44c1f632af6e69719bb20f3a6c914ee4022f5d3c76bfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%224nEYb2n-jNndo1Q_tXxKwN7di__mgyIM%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588845703.6372
+    'REQUEST_TIME' => 1588845703
+]
+2020-05-07 18:01:57 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:01:55 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf_backend' => 'izSAitnpwWbGa3ryM-Zn8Tkh_P594qz3bdXSByKCshu_WsXTu9uvS6wlFJZc1zauTXmEtQqsm5MEio1qRfv7Vg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '123'
+        'captcha' => 'leia'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'BACKEND_FEEHICMS' => 'lt06bl3p7jhor9lum9nnrcqk90'
+    '_csrf_backend' => 'e30bc03b4df7cea6f94b44c1f632af6e69719bb20f3a6c914ee4022f5d3c76bfa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"4nEYb2n-jNndo1Q_tXxKwN7di__mgyIM\";}'
+    'PHPSESSID' => 'a2lelv7tjj4n6dg50juonhmd36'
+    '_csrf' => 'db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sedi'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2484'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Flogin'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13798'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'BACKEND_FEEHICMS=lt06bl3p7jhor9lum9nnrcqk90; _csrf_backend=e30bc03b4df7cea6f94b44c1f632af6e69719bb20f3a6c914ee4022f5d3c76bfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%224nEYb2n-jNndo1Q_tXxKwN7di__mgyIM%22%3B%7D; PHPSESSID=a2lelv7tjj4n6dg50juonhmd36; _csrf=db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://www.qd.com'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_LENGTH' => '206'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588845715.0839
+    'REQUEST_TIME' => 1588845715
+]
+2020-05-07 18:02:00 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\site\index.php:235
+    in D:\php code\qd\backend\controllers\SiteController.php:82
+2020-05-07 18:02:00 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:01:57 [192.168.1.139][1][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'a2lelv7tjj4n6dg50juonhmd36'
+    '_csrf' => 'db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm\";}'
+    'BACKEND_FEEHICMS' => 'p8segn4salp9u45smpber7ur22'
+    '_csrf_backend' => 'e3cf9cc5863933e25594f4f9d086537c2ff331e0028b1e90aba7123530d36befa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"7e6Gzca_O0_aotUIw3TJl25K-c8c8kbz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sedi'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2484'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13798'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=a2lelv7tjj4n6dg50juonhmd36; _csrf=db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm%22%3B%7D; BACKEND_FEEHICMS=p8segn4salp9u45smpber7ur22; _csrf_backend=e3cf9cc5863933e25594f4f9d086537c2ff331e0028b1e90aba7123530d36befa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%227e6Gzca_O0_aotUIw3TJl25K-c8c8kbz%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588845717.8766
+    'REQUEST_TIME' => 1588845717
+]
+2020-05-07 18:02:03 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\layouts\main.php:33
+    in D:\php code\qd\backend\controllers\SiteController.php:175
+2020-05-07 18:02:03 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:02:00 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'site/main'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'a2lelv7tjj4n6dg50juonhmd36'
+    '_csrf' => 'db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm\";}'
+    'BACKEND_FEEHICMS' => 'p8segn4salp9u45smpber7ur22'
+    '_csrf_backend' => 'e3cf9cc5863933e25594f4f9d086537c2ff331e0028b1e90aba7123530d36befa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"7e6Gzca_O0_aotUIw3TJl25K-c8c8kbz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sedi'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2484'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Fmain'
+    'QUERY_STRING' => 'r=site%2Fmain'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13798'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=a2lelv7tjj4n6dg50juonhmd36; _csrf=db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm%22%3B%7D; BACKEND_FEEHICMS=p8segn4salp9u45smpber7ur22; _csrf_backend=e3cf9cc5863933e25594f4f9d086537c2ff331e0028b1e90aba7123530d36befa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%227e6Gzca_O0_aotUIw3TJl25K-c8c8kbz%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588845720.5641
+    'REQUEST_TIME' => 1588845720
+]
+2020-05-07 18:02:05 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+    in D:\php code\qd\backend\views\layouts\main.php:33
+    in D:\php code\qd\backend\controllers\SiteController.php:175
+2020-05-07 18:02:05 [192.168.1.139][1][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:02:03 [192.168.1.139][1][-][info][application] $_GET = [
+    'r' => 'site/main'
+    'callback' => 'jQuery341021051670588307614_1588845723230'
+    '_' => '1588845723231'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'a2lelv7tjj4n6dg50juonhmd36'
+    '_csrf' => 'db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm\";}'
+    'BACKEND_FEEHICMS' => 'p8segn4salp9u45smpber7ur22'
+    '_csrf_backend' => 'e3cf9cc5863933e25594f4f9d086537c2ff331e0028b1e90aba7123530d36befa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"7e6Gzca_O0_aotUIw3TJl25K-c8c8kbz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sedi'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2484'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=site%2Fmain&callback=jQuery341021051670588307614_1588845723230&_=1588845723231'
+    'QUERY_STRING' => 'r=site%2Fmain&callback=jQuery341021051670588307614_1588845723230&_=1588845723231'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13798'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=a2lelv7tjj4n6dg50juonhmd36; _csrf=db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm%22%3B%7D; BACKEND_FEEHICMS=p8segn4salp9u45smpber7ur22; _csrf_backend=e3cf9cc5863933e25594f4f9d086537c2ff331e0028b1e90aba7123530d36befa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%227e6Gzca_O0_aotUIw3TJl25K-c8c8kbz%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Fmain'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_X_CSRF_TOKEN' => 'ZMVft_VcfKu3jxQigAh2a8L_xMXnSFrz7Lqg-O8OItJToGnwjz8d9Pi_S0PvfCMitcyQj4t6b7jB2Zib12VAqA=='
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588845723.2643
+    'REQUEST_TIME' => 1588845723
+]
+2020-05-07 18:02:22 [192.168.1.139][1][p8segn4salp9u45smpber7ur22][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses. in D:\php code\qd\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#1 D:\php code\qd\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#2 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(166): yii\data\BaseDataProvider->getModels()
+#3 D:\php code\qd\vendor\yiisoft\yii2\grid\DataColumn.php(131): yii\grid\DataColumn->getHeaderCellLabel()
+#4 D:\php code\qd\vendor\yiisoft\yii2\grid\Column.php(85): yii\grid\DataColumn->renderHeaderCellContent()
+#5 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(426): yii\grid\Column->renderHeaderCell()
+#6 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(357): yii\grid\GridView->renderTableHeader()
+#7 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\grid\GridView->renderItems()
+#8 D:\php code\qd\vendor\yiisoft\yii2\grid\GridView.php(326): yii\widgets\BaseListView->renderSection('{items}')
+#9 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\grid\GridView->renderSection('{items}')
+#10 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#12 D:\php code\qd\backend\grid\GridView.php(112): yii\widgets\BaseListView->run()
+#13 D:\php code\qd\vendor\yiisoft\yii2\base\Widget.php(140): backend\grid\GridView->run()
+#14 D:\php code\qd\backend\views\company\index.php(108): yii\base\Widget::widget(Array)
+#15 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(348): require('D:\\php code\\qd\\...')
+#16 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\php code\\qd\\...', Array)
+#17 D:\php code\qd\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\php code\\qd\\...', Array, Object(backend\controllers\CompanyController))
+#18 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(backend\controllers\CompanyController))
+#19 D:\php code\qd\backend\actions\IndexAction.php(32): yii\base\Controller->render('index', Array)
+#20 [internal function]: backend\actions\IndexAction->run()
+#21 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#22 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#23 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#24 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('company/index', Array)
+#25 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 D:\php code\qd\frontend\web\admin\index.php(18): yii\base\Application->run()
+#27 {main}
+2020-05-07 18:02:22 [192.168.1.139][1][p8segn4salp9u45smpber7ur22][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:02:22 [192.168.1.139][1][p8segn4salp9u45smpber7ur22][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.139
+2020-05-07 18:02:20 [192.168.1.139][1][p8segn4salp9u45smpber7ur22][info][application] $_GET = [
+    'r' => 'company/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'a2lelv7tjj4n6dg50juonhmd36'
+    '_csrf' => 'db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm\";}'
+    'BACKEND_FEEHICMS' => 'p8segn4salp9u45smpber7ur22'
+    '_csrf_backend' => 'e3cf9cc5863933e25594f4f9d086537c2ff331e0028b1e90aba7123530d36befa:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"7e6Gzca_O0_aotUIw3TJl25K-c8c8kbz\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend_returnUrl' => '/admin/'
+    '__captcha/site/captcha' => 'sedi'
+    '__captcha/site/captchacount' => 1
+    '__backend__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2536'
+    'SCRIPT_NAME' => '/admin/index.php'
+    'REQUEST_URI' => '/admin/index.php?r=company%2Findex'
+    'QUERY_STRING' => 'r=company%2Findex'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '13821'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '192.168.1.139'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '192.168.1.139'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'PHPSESSID=a2lelv7tjj4n6dg50juonhmd36; _csrf=db37aafcf27d6f9e965069a211ee342ee1f128ab3b7ff5a509773b27c495b0bca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GPr5PGc6EF2zoHJEFbiOFcW1bMynQnPm%22%3B%7D; BACKEND_FEEHICMS=p8segn4salp9u45smpber7ur22; _csrf_backend=e3cf9cc5863933e25594f4f9d086537c2ff331e0028b1e90aba7123530d36befa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%227e6Gzca_O0_aotUIw3TJl25K-c8c8kbz%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/admin/index.php'
+    'REQUEST_TIME_FLOAT' => 1588845740.4993
+    'REQUEST_TIME' => 1588845740
+]

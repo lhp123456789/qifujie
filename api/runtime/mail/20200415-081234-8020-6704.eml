@@ -1,0 +1,128 @@
+Message-ID: <e3dd70a6e5f90ab528bd70f109f05f39@www.qd.com>
+Date: Wed, 15 Apr 2020 08:12:34 +0000
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA?= Feehi CMS
+ =?UTF-8?Q?api=E7=9A=84=E6=96=B0=E6=97=A5=E5=BF=97=E6=B6=88?=
+ =?UTF-8?Q?=E6=81=AF?=
+From: Feehi CMS robot  <admin@feehi.com>
+To: admin@feehi.com, liufee@126.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-04-15 08:12:34 [127.0.0.1][-][-][error][yii\db\Exception]
+yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown
+column 'parent_id' in 'where clause'
+The SQL being executed was: SELECT title `id` FROM `qd_article` WHERE
+`parent_id`=3D1 in D:\php code\qd\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1295):
+yii\db\Schema->convertException(Object(PDOException), 'SELECT title
+`i...')
+#1 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(1158):
+yii\db\Command->internalExecute('SELECT title `i...')
+#2 D:\php code\qd\vendor\yiisoft\yii2\db\Command.php(413):
+yii\db\Command->queryInternal('fetch', NULL)
+#3 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(274):
+yii\db\Command->queryOne()
+#4 D:\php code\qd\vendor\yiisoft\yii2\db\ActiveQuery.php(304):
+yii\db\Query->one(NULL)
+#5 D:\php code\qd\api\controllers\ArticleController.php(45):
+yii\db\ActiveQuery->one()
+#6 [internal function]:
+api\controllers\ArticleController->actionPidlist(1)
+#7 D:\php code\qd\vendor\yiisoft\yii2\base\InlineAction.php(57):
+call_user_func_array(Array, Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#9 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528):
+yii\base\Controller->runAction('pidlist', Array)
+#10 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103):
+yii\base\Module->runAction('v1/article/pidl...', Array)
+#11 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\php code\qd\frontend\web\api\index.php(18):
+yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] =3D> 42S22
+    [1] =3D> 1054
+    [2] =3D> Unknown column 'parent_id' in 'where clause'
+)
+
+2020-04-15 08:12:32 [127.0.0.1][-][-][info][application] $_GET =3D [
+    'username' =3D> 'zs'
+]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D []
+
+$_SERVER =3D [
+    'PATH' =3D> 'C:\\Program Files (x86)\\Intel\\Intel(R) Management
+Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R)
+Management Engine
+Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\=
+\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\Syst=
+em32\\OpenSSH\\;C:\\Program
+Files (x86)\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files (x86)\\NVIDIA
+Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WIN=
+DOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\Syst=
+em32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\php=
+Study\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Loc=
+al\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\U=
+sers\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\Ap=
+pData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' =3D> 'C:\\WINDOWS'
+    'COMSPEC' =3D> 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' =3D> 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' =3D> '1000'
+    'PHPRC' =3D> 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' =3D> '2640'
+    'SCRIPT_NAME' =3D> '/api/index.php'
+    'REQUEST_URI' =3D> '/api/v1/article/pidlist?username=3Dzs'
+    'QUERY_STRING' =3D> 'username=3Dzs'
+    'REQUEST_METHOD' =3D> 'GET'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'REDIRECT_QUERY_STRING' =3D> 'username=3Dzs'
+    'REDIRECT_URL' =3D> '/api/v1/article/pidlist'
+    'REMOTE_PORT' =3D> '3443'
+    'SCRIPT_FILENAME' =3D> 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' =3D> 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'http'
+    'DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' =3D> '127.0.0.1'
+    'SERVER_PORT' =3D> '80'
+    'SERVER_ADDR' =3D> '127.0.0.1'
+    'SERVER_NAME' =3D> 'www.qd.com'
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j
+mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' =3D> ''
+    'SystemRoot' =3D> 'C:\\WINDOWS'
+    'CONTENT_LENGTH' =3D> '160'
+    'CONTENT_TYPE' =3D> 'multipart/form-data;
+boundary=3D--------------------------930499525246488388217844'
+    'HTTP_CONNECTION' =3D> 'close'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate, br'
+    'HTTP_HOST' =3D> 'www.qd.com'
+    'HTTP_POSTMAN_TOKEN' =3D> '18548449-a571-4910-a643-5183d2d0f3f9'
+    'HTTP_CACHE_CONTROL' =3D> 'no-cache'
+    'HTTP_ACCEPT' =3D> '*/*'
+    'HTTP_USER_AGENT' =3D> 'PostmanRuntime/7.24.1'
+    'HTTP_DUANG' =3D> '123'
+    'REDIRECT_STATUS' =3D> '200'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/api/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1586938352.4491
+    'REQUEST_TIME' =3D> 1586938352
+]

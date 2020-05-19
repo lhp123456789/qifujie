@@ -1,0 +1,1022 @@
+2020-04-15 20:51:39 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:51:36 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2968'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4503'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955096.4699
+    'REQUEST_TIME' => 1586955096
+]
+2020-04-15 20:54:24 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:54:22 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2900'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4590'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955262.6725
+    'REQUEST_TIME' => 1586955262
+]
+2020-04-15 20:54:32 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:54:30 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '864'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4589'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955270.0896
+    'REQUEST_TIME' => 1586955270
+]
+2020-04-15 20:55:25 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:55:23 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2968'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4645'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955323.7422
+    'REQUEST_TIME' => 1586955323
+]
+2020-04-15 20:55:45 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:55:42 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2900'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4659'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955342.8965
+    'REQUEST_TIME' => 1586955342
+]
+2020-04-15 20:56:08 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:56:06 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2968'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4684'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955366.4437
+    'REQUEST_TIME' => 1586955366
+]
+2020-04-15 20:57:18 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:57:16 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2804'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4733'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955436.323
+    'REQUEST_TIME' => 1586955436
+]
+2020-04-15 20:57:54 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:57:52 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2804'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4753'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955471.9977
+    'REQUEST_TIME' => 1586955471
+]
+2020-04-15 20:57:56 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:57:54 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2804'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4771'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955474.2754
+    'REQUEST_TIME' => 1586955474
+]
+2020-04-15 20:58:04 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:58:02 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '864'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4752'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955482.7963
+    'REQUEST_TIME' => 1586955482
+]
+2020-04-15 20:59:06 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:59:04 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2804'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4822'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955544.7451
+    'REQUEST_TIME' => 1586955544
+]
+2020-04-15 20:59:09 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:59:06 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2900'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4821'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955546.9445
+    'REQUEST_TIME' => 1586955546
+]
+2020-04-15 20:59:17 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 20:59:15 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2900'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '4843'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586955555.5669
+    'REQUEST_TIME' => 1586955555
+]
+2020-04-15 21:16:58 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "toastr.js.map". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('toastr.js.map', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-04-15 21:16:55 [127.0.0.1][1][3qu2cdvhcufkd3ut5sem1p6m82][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '3qu2cdvhcufkd3ut5sem1p6m82'
+    '_csrf' => '95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK\";}'
+    'BACKEND_FEEHICMS' => 'blr4q8647b4ai1rmnofgnqn3q7'
+    '_csrf_backend' => 'fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '3040'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/toastr.js.map'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/toastr.js.map'
+    'REMOTE_PORT' => '5505'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=3qu2cdvhcufkd3ut5sem1p6m82; _csrf=95baa636fa2533fe62457758de40024f9996b04a23ccbc9bc2b53703a6edf1caa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kPJSEdYGdxkAlfznxUFetfgL4y7tWqkK%22%3B%7D; BACKEND_FEEHICMS=blr4q8647b4ai1rmnofgnqn3q7; _csrf_backend=fc4833897882844fbbda17a0ed8d61a2af2dfd91e8c7e4573cdf5c5ab0384a97a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22v-uiEFmxTw_fsSIiE9FVYZVwlPdY5b2V%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1586956615.7557
+    'REQUEST_TIME' => 1586956615
+]

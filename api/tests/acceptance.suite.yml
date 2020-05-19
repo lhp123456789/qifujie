@@ -1,0 +1,8 @@
+class_name: AcceptanceTester
+modules:
+  enabled:
+  - REST:
+      depends: PhpBrowser
+      url: http://cms.test.docker/api
+  - Yii2:
+      part: init

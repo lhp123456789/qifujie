@@ -1,0 +1,143 @@
+Message-ID: <a83029854df804132d8c5ee96675cf30@www.qd.com>
+Date: Fri, 10 Apr 2020 16:19:02 +0800
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA?= Feehi CMS
+ =?UTF-8?Q?=E5=89=8D=E5=8F=B0=E7=9A=84=E6=96=B0?=
+ =?UTF-8?Q?=E6=97=A5=E5=BF=97=E6=B6=88=E6=81=AF?=
+From: Feehi CMS robot  <admin@feehi.com>
+To: admin@feehi.com, liufee@126.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-04-10 16:19:02
+[127.0.0.1][1][n4h0h4o0i47nn8d3ad7j0sjcj7][error][yii\base\UnknownPropert=
+yException]
+yii\base\UnknownPropertyException: Getting unknown property:
+frontend\models\Article::template in D:\php
+code\qd\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298):
+yii\base\Component->__get('template')
+#1 D:\php code\qd\frontend\controllers\ArticleController.php(155):
+yii\db\BaseActiveRecord->__get('template')
+#2 [internal function]:
+frontend\controllers\ArticleController->actionView('26')
+#3 D:\php code\qd\vendor\yiisoft\yii2\base\InlineAction.php(57):
+call_user_func_array(Array, Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#5 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528):
+yii\base\Controller->runAction('view', Array)
+#6 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103):
+yii\base\Module->runAction('article/view', Array)
+#7 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\php code\qd\frontend\web\index.php(17):
+yii\base\Application->run()
+#9 {main}
+2020-04-10 16:19:00
+[127.0.0.1][1][n4h0h4o0i47nn8d3ad7j0sjcj7][info][application] $_GET =3D
+[
+    'r' =3D> 'article/view'
+    'id' =3D> '26'
+]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    'BACKEND_FEEHICMS' =3D> 'btnbuj2l5amcu914crce0cfr76'
+    '_csrf_backend' =3D>
+'998be97f6c9fdd48e534ad8963e4f4a173a1c20b5af8184145432c69c7ff5e13a:2:{i:0;s=
+:13:\"_csrf_backend\";i:1;s:32:\"U7YSp0bFISBwR0BRmJGhS8lSafSWXIRA\";}'
+    'PHPSESSID' =3D> 'n4h0h4o0i47nn8d3ad7j0sjcj7'
+    '_identity' =3D>
+'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;=
+s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",259=
+2000]\";}'
+    '_csrf' =3D>
+'c18ac311efd870f46e5f9e7270d549d43260a5c7717fb1f44b19278fe7499cbca:2:{i:0;=
+s:5:\"_csrf\";i:1;s:32:\"XgOEOqtKog6iw-CSzcTajbLctwZXARzy\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+    '__returnUrl' =3D> 'http://www.qd.com/'
+    '__id' =3D> 1
+]
+
+$_SERVER =3D [
+    'PATH' =3D> 'C:\\Program Files (x86)\\Intel\\Intel(R) Management
+Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R)
+Management Engine
+Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\=
+\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\Syst=
+em32\\OpenSSH\\;C:\\Program
+Files (x86)\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files (x86)\\NVIDIA
+Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WIN=
+DOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\Syst=
+em32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\php=
+Study\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Loc=
+al\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\U=
+sers\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\Ap=
+pData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' =3D> 'C:\\WINDOWS'
+    'COMSPEC' =3D> 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' =3D> 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' =3D> '1000'
+    'PHPRC' =3D> 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' =3D> '2564'
+    'SCRIPT_NAME' =3D> '/index.php'
+    'REQUEST_URI' =3D> '/index.php?r=3Darticle%2Fview&id=3D26'
+    'QUERY_STRING' =3D> 'r=3Darticle%2Fview&id=3D26'
+    'REQUEST_METHOD' =3D> 'GET'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'REMOTE_PORT' =3D> '3074'
+    'SCRIPT_FILENAME' =3D> 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' =3D> 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'http'
+    'DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' =3D> '127.0.0.1'
+    'SERVER_PORT' =3D> '80'
+    'SERVER_ADDR' =3D> '127.0.0.1'
+    'SERVER_NAME' =3D> 'www.qd.com'
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j
+mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' =3D> ''
+    'SystemRoot' =3D> 'C:\\WINDOWS'
+    'HTTP_COOKIE' =3D> 'BACKEND_FEEHICMS=3Dbtnbuj2l5amcu914crce0cfr76;
+_csrf_backend=3D998be97f6c9fdd48e534ad8963e4f4a173a1c20b5af8184145432c69c7f=
+f5e13a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A=
+%22U7YSp0bFISBwR0BRmJGhS8lSafSWXIRA%22%3B%7D;
+PHPSESSID=3Dn4h0h4o0i47nn8d3ad7j0sjcj7;
+_identity=3Dc418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a=
+5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2=
+C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D;
+_csrf=3Dc18ac311efd870f46e5f9e7270d549d43260a5c7717fb1f44b19278fe7499cbca%3=
+A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XgOEOqtKog6iw-=
+CSzcTajbLctwZXARzy%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate'
+    'HTTP_REFERER' =3D> 'http://www.qd.com/'
+    'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,application/xml;q=3D0.9,image/webp,image/a=
+png,*/*;q=3D0.8,application/signed-exchange;v=3Db3'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 10.0; WOW64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100
+Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_CONNECTION' =3D> 'close'
+    'HTTP_HOST' =3D> 'www.qd.com'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1586506740.017
+    'REQUEST_TIME' =3D> 1586506740
+]

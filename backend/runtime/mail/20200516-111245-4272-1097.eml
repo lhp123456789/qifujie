@@ -1,0 +1,138 @@
+Message-ID: <1bf4be979985f9a88403972a6d0bb187@www.qd.com>
+Date: Sat, 16 May 2020 11:12:45 +0800
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA=E5=90=8E=E5=8F=B0?=
+ =?UTF-8?Q?=E7=9A=84=E6=96=B0=E6=97=A5=E5=BF=97=E6=B6=88=E6=81=AF?=
+From: Feehi CMS robot  <admin@feehi.com>
+To: 1770080861@qq.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-05-16 11:12:45
+[192.168.1.139][1][v77rdpvhcl1s1hrqes3qo1pc42][error][Error] Error:
+Call to a member function setScenario() on null in D:\php
+code\qd\backend\actions\ViewAction.php:80
+Stack trace:
+#0 D:\php code\qd\backend\actions\ViewAction.php(51):
+backend\actions\ViewAction->getModel()
+#1 [internal function]: backend\actions\ViewAction->run()
+#2 D:\php code\qd\vendor\yiisoft\yii2\base\Action.php(94):
+call_user_func_array(Array, Array)
+#3 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157):
+yii\base\Action->runWithParams(Array)
+#4 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528):
+yii\base\Controller->runAction('view-layer', Array)
+#5 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103):
+yii\base\Module->runAction('publish/view-la...', Array)
+#6 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\php code\qd\frontend\web\admin\index.php(18):
+yii\base\Application->run()
+#8 {main}
+2020-05-16 11:12:43
+[192.168.1.139][1][v77rdpvhcl1s1hrqes3qo1pc42][info][application]
+$_GET =3D [
+    'r' =3D> 'publish/view-layer'
+    'id' =3D> '8'
+]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    'PHPSESSID' =3D> 'h11iqhqunuk0e2et5dl7nsno67'
+    '_csrf' =3D>
+'ee788b42a9bc851839f87f596b06601df830e566a443417726dba1dd0ede5c4da:2:{i:0;=
+s:5:\"_csrf\";i:1;s:32:\"n6goXZqlYOfmpZXEvSUo5y0aFgN_M0EG\";}'
+    'BACKEND_FEEHICMS' =3D> 'v77rdpvhcl1s1hrqes3qo1pc42'
+    '_csrf_backend' =3D>
+'807d3d97c5dd7f0f9cc34b0c4140e58d6582e5dbd52485d3db0cdc5587175513a:2:{i:0;s=
+:13:\"_csrf_backend\";i:1;s:32:\"6VFU2EQtQ7iB0pMHh9b3bUy5on-YwRcX\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+    '_backend_returnUrl' =3D> '/admin/'
+    '__captcha/site/captcha' =3D> 'wago'
+    '__captcha/site/captchacount' =3D> 1
+    '__backend__id' =3D> '1'
+    '_update_referer' =3D>
+'http://www.qd.com/admin/index.php?r=3Dcompany%2Findex'
+    '_create_referer' =3D>
+'http://www.qd.com/admin/index.php?r=3Dpublish%2Findex'
+]
+
+$_SERVER =3D [
+    'PATH' =3D> 'C:\\Program Files (x86)\\Intel\\Intel(R) Management
+Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R)
+Management Engine
+Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\=
+\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\Syst=
+em32\\OpenSSH\\;C:\\Program
+Files (x86)\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files (x86)\\NVIDIA
+Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;C:\\WIND=
+OWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\Syste=
+m32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpS=
+tudy\\PHPTutorial\\php\\php-7.0.12-nts;F:\\Program
+Files\\Git\\cmd;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApp=
+s;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Loc=
+al\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\=
+\vendor\\bin'
+    'SYSTEMROOT' =3D> 'C:\\WINDOWS'
+    'COMSPEC' =3D> 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' =3D> 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' =3D> '1000'
+    'PHPRC' =3D> 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' =3D> '2312'
+    'SCRIPT_NAME' =3D> '/admin/index.php'
+    'REQUEST_URI' =3D> '/admin/index.php?r=3Dpublish%2Fview-layer&id=3D8'
+    'QUERY_STRING' =3D> 'r=3Dpublish%2Fview-layer&id=3D8'
+    'REQUEST_METHOD' =3D> 'GET'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'REMOTE_PORT' =3D> '3287'
+    'SCRIPT_FILENAME' =3D> 'D:/php code/qd/frontend/web/admin/index.php'
+    'SERVER_ADMIN' =3D> 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'http'
+    'DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' =3D> '192.168.1.139'
+    'SERVER_PORT' =3D> '80'
+    'SERVER_ADDR' =3D> '192.168.1.139'
+    'SERVER_NAME' =3D> 'www.qd.com'
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j
+mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' =3D> ''
+    'SystemRoot' =3D> 'C:\\WINDOWS'
+    'HTTP_COOKIE' =3D> 'PHPSESSID=3Dh11iqhqunuk0e2et5dl7nsno67;
+_csrf=3Dee788b42a9bc851839f87f596b06601df830e566a443417726dba1dd0ede5c4da=
+%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22n6goXZqlYOfm=
+pZXEvSUo5y0aFgN_M0EG%22%3B%7D;
+BACKEND_FEEHICMS=3Dv77rdpvhcl1s1hrqes3qo1pc42;
+_csrf_backend=3D807d3d97c5dd7f0f9cc34b0c4140e58d6582e5dbd52485d3db0cdc55871=
+75513a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A=
+%226VFU2EQtQ7iB0pMHh9b3bUy5on-YwRcX%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate'
+    'HTTP_REFERER' =3D>
+'http://www.qd.com/admin/index.php?r=3Dpublish%2Findex'
+    'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,application/xml;q=3D0.9,image/webp,image/a=
+png,*/*;q=3D0.8,application/signed-exchange;v=3Db3'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 10.0; WOW64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100
+Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_CONNECTION' =3D> 'close'
+    'HTTP_HOST' =3D> 'www.qd.com'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/admin/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1589598763.147
+    'REQUEST_TIME' =3D> 1589598763
+]

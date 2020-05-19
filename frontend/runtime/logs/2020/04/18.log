@@ -1,0 +1,527 @@
+2020-04-18 11:22:11 [127.0.0.1][1][4es9hptf8anor71oc23sc8rtn7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "static/img/pc_loginBg.jpg". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('static/img/pc_l...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-18 11:22:09 [127.0.0.1][1][4es9hptf8anor71oc23sc8rtn7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '4es9hptf8anor71oc23sc8rtn7'
+    '_csrf' => '218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP\";}'
+    'BACKEND_FEEHICMS' => 'iv98kravg341gp60j3s5j146e2'
+    '_csrf_backend' => 'dc5350ede66e6748165f7a3b30a116763b1bdd14ce06b18d7090171e5e92ae9ea:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"Qj4VwqVGfJAWZPv1gJS1RUfRm43Jxueh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2348'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/static/img/pc_loginBg.jpg'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/static/img/pc_loginBg.jpg'
+    'REMOTE_PORT' => '2711'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=4es9hptf8anor71oc23sc8rtn7; _csrf=218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP%22%3B%7D; BACKEND_FEEHICMS=iv98kravg341gp60j3s5j146e2; _csrf_backend=dc5350ede66e6748165f7a3b30a116763b1bdd14ce06b18d7090171e5e92ae9ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22Qj4VwqVGfJAWZPv1gJS1RUfRm43Jxueh%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qd.com/admin/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587180129.3412
+    'REQUEST_TIME' => 1587180129
+]
+2020-04-18 21:20:52 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/category/create". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/category/...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-18 21:20:50 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    'PHPSESSID' => '4es9hptf8anor71oc23sc8rtn7'
+    '_csrf' => '218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP\";}'
+    'BACKEND_FEEHICMS' => '5pgqjg34stfj0rfebmkr7qbjk5'
+    '_csrf_backend' => '048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2292'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/category/create'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/category/create'
+    'REMOTE_PORT' => '5758'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; PHPSESSID=4es9hptf8anor71oc23sc8rtn7; _csrf=218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP%22%3B%7D; BACKEND_FEEHICMS=5pgqjg34stfj0rfebmkr7qbjk5; _csrf_backend=048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587216050.1028
+    'REQUEST_TIME' => 1587216050
+]
+2020-04-18 21:21:26 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/category/catelist". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/category/...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-18 21:21:24 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    '_csrf' => '218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP\";}'
+    'BACKEND_FEEHICMS' => '5pgqjg34stfj0rfebmkr7qbjk5'
+    '_csrf_backend' => '048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0\";}'
+    'PHPSESSID' => 'q8728p9etotgr4dvl4sdbnmqa6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2292'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/category/catelist'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/category/catelist'
+    'REMOTE_PORT' => '5767'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; _csrf=218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP%22%3B%7D; BACKEND_FEEHICMS=5pgqjg34stfj0rfebmkr7qbjk5; _csrf_backend=048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0%22%3B%7D; PHPSESSID=q8728p9etotgr4dvl4sdbnmqa6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587216084.7476
+    'REQUEST_TIME' => 1587216084
+]
+2020-04-18 21:21:32 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/category/catelist". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/category/...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-18 21:21:30 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    '_csrf' => '218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP\";}'
+    'BACKEND_FEEHICMS' => '5pgqjg34stfj0rfebmkr7qbjk5'
+    '_csrf_backend' => '048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0\";}'
+    'PHPSESSID' => 'q8728p9etotgr4dvl4sdbnmqa6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2292'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/category/catelist'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/category/catelist'
+    'REMOTE_PORT' => '5768'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; _csrf=218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP%22%3B%7D; BACKEND_FEEHICMS=5pgqjg34stfj0rfebmkr7qbjk5; _csrf_backend=048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0%22%3B%7D; PHPSESSID=q8728p9etotgr4dvl4sdbnmqa6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587216090.3214
+    'REQUEST_TIME' => 1587216090
+]
+2020-04-18 21:23:06 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin//category/catelist". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin//category...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-18 21:23:04 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    '_csrf' => '218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP\";}'
+    'BACKEND_FEEHICMS' => '5pgqjg34stfj0rfebmkr7qbjk5'
+    '_csrf_backend' => '048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0\";}'
+    'PHPSESSID' => 'q8728p9etotgr4dvl4sdbnmqa6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2192'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin//category/catelist'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin//category/catelist'
+    'REMOTE_PORT' => '5787'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; _csrf=218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP%22%3B%7D; BACKEND_FEEHICMS=5pgqjg34stfj0rfebmkr7qbjk5; _csrf_backend=048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0%22%3B%7D; PHPSESSID=q8728p9etotgr4dvl4sdbnmqa6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587216184.704
+    'REQUEST_TIME' => 1587216184
+]
+2020-04-18 21:23:27 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin//category/catelist". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin//category...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-18 21:23:25 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    '_csrf' => '218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP\";}'
+    'BACKEND_FEEHICMS' => '5pgqjg34stfj0rfebmkr7qbjk5'
+    '_csrf_backend' => '048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0\";}'
+    'PHPSESSID' => 'q8728p9etotgr4dvl4sdbnmqa6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2456'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin//category/catelist'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin//category/catelist'
+    'REMOTE_PORT' => '5797'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; _csrf=218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP%22%3B%7D; BACKEND_FEEHICMS=5pgqjg34stfj0rfebmkr7qbjk5; _csrf_backend=048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0%22%3B%7D; PHPSESSID=q8728p9etotgr4dvl4sdbnmqa6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587216205.0636
+    'REQUEST_TIME' => 1587216205
+]
+2020-04-18 22:27:21 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin/r=category/catelist". in D:\php code\qd\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/r=categor...', Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in D:\php code\qd\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\php code\qd\frontend\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2020-04-18 22:27:19 [127.0.0.1][1][q8728p9etotgr4dvl4sdbnmqa6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => 'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",2592000]\";}'
+    '_csrf' => '218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP\";}'
+    'BACKEND_FEEHICMS' => '5pgqjg34stfj0rfebmkr7qbjk5'
+    '_csrf_backend' => '048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a:2:{i:0;s:13:\"_csrf_backend\";i:1;s:32:\"Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0\";}'
+    'PHPSESSID' => 'q8728p9etotgr4dvl4sdbnmqa6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\phpStudy\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\Users\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2456'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/r=category/catelist'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/admin/r=category/catelist'
+    'REMOTE_PORT' => '5990'
+    'SCRIPT_FILENAME' => 'D:/php code/qd/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.qd.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => '_identity=c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D; _csrf=218a4980700e8592332fc9a9f8ebf828a4e4b355faf905d0de6efab47f66fac7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22k5P5z-v1Pw63Bg47JGss00G-l1Iwq9bP%22%3B%7D; BACKEND_FEEHICMS=5pgqjg34stfj0rfebmkr7qbjk5; _csrf_backend=048907780e6f661176d824238833d5d669c36c83379fba962006231d1e972c17a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A%22Owzb0X_DJjI5_QTY_tDQoTuhrtha38P0%22%3B%7D; PHPSESSID=q8728p9etotgr4dvl4sdbnmqa6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.qd.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1587220039.4819
+    'REQUEST_TIME' => 1587220039
+]

@@ -1,0 +1,134 @@
+Message-ID: <4ea8095ddc7a5e3a43614de0c2e3bf6e@www.qd.com>
+Date: Thu, 16 Apr 2020 05:47:13 +0000
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA?= Feehi CMS
+ =?UTF-8?Q?api=E7=9A=84=E6=96=B0=E6=97=A5=E5=BF=97=E6=B6=88?=
+ =?UTF-8?Q?=E6=81=AF?=
+From: Feehi CMS robot  <admin@feehi.com>
+To: admin@feehi.com, liufee@126.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2020-04-16 05:47:13
+[127.0.0.1][-][-][error][yii\base\ErrorException:2]
+yii\base\ErrorException: Invalid argument supplied for foreach() in
+D:\php code\qd\vendor\yiisoft\yii2\db\Query.php:1218
+Stack trace:
+#0 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(1218):
+yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\php
+code\\qd\\...', 1218, Array)
+#1 D:\php code\qd\vendor\yiisoft\yii2\db\Query.php(825):
+yii\db\Query->addParams('title')
+#2 D:\php code\qd\api\controllers\SiteController.php(110):
+yii\db\Query->orWhere('like', 'title', NULL)
+#3 [internal function]:
+api\controllers\SiteController->actionIndex(NULL)
+#4 D:\php code\qd\vendor\yiisoft\yii2\base\InlineAction.php(57):
+call_user_func_array(Array, Array)
+#5 D:\php code\qd\vendor\yiisoft\yii2\base\Controller.php(157):
+yii\base\InlineAction->runWithParams(Array)
+#6 D:\php code\qd\vendor\yiisoft\yii2\base\Module.php(528):
+yii\base\Controller->runAction('index', Array)
+#7 D:\php code\qd\vendor\yiisoft\yii2\web\Application.php(103):
+yii\base\Module->runAction('site/index', Array)
+#8 D:\php code\qd\vendor\yiisoft\yii2\base\Application.php(386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\php code\qd\frontend\web\api\index.php(18):
+yii\base\Application->run()
+#10 {main}
+2020-04-16 05:47:13 [127.0.0.1][-][-][info][application] $_GET =3D []
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    '_identity' =3D>
+'c418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e755a5a:2:{i:0;=
+s:9:\"_identity\";i:1;s:46:\"[1,\"AfMP8FJuynd6yqK77ryf9_Okbffk_OSv\",259=
+2000]\";}'
+    'PHPSESSID' =3D> '2a4i2ei02flt69vkjavjdtmp03'
+    '_csrf' =3D>
+'bcdc83c3661cd26c772c540060fd218b89f3b1e0bb581aaecc683f61e0868fd5a:2:{i:0;=
+s:5:\"_csrf\";i:1;s:32:\"Ne-VMFAEc9_COToAp8JfYjMgcbEsuAFV\";}'
+    'BACKEND_FEEHICMS' =3D> '048d40nbr61jouqh31t3u0n082'
+    '_csrf_backend' =3D>
+'624087c321bcd65a8a567059824e093798d02b05cf1072e1e8c3e9df97b4af48a:2:{i:0;s=
+:13:\"_csrf_backend\";i:1;s:32:\"G25hE71b8Yl-a9VT3t-Ghy3A4Ha7squU\";}'
+]
+
+$_SERVER =3D [
+    'PATH' =3D> 'C:\\Program Files (x86)\\Intel\\Intel(R) Management
+Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R)
+Management Engine
+Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\=
+\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\Syst=
+em32\\OpenSSH\\;C:\\Program
+Files (x86)\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine
+Components\\DAL;C:\\Program Files (x86)\\NVIDIA
+Corporation\\PhysX\\Common;D:\\phpStudy\\PHPTutorial\\MySQL\\bin;;C:\\WIN=
+DOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\Syst=
+em32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\php=
+Study\\PHPTutorial\\php\\php-7.0.12-nts;\"C:\\Users\\86176\\AppData\\Loc=
+al\\Microsoft\\WindowsApps;D:\\phpStudy\\PHPTutorial\\MySQL\\bin\";C:\\U=
+sers\\86176\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\86176\\Ap=
+pData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' =3D> 'C:\\WINDOWS'
+    'COMSPEC' =3D> 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' =3D> 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' =3D> '1000'
+    'PHPRC' =3D> 'D:/phpStudy/PHPTutorial/php/php-7.0.12-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' =3D> '2552'
+    'SCRIPT_NAME' =3D> '/api/index.php'
+    'REQUEST_URI' =3D> '/api/'
+    'QUERY_STRING' =3D> ''
+    'REQUEST_METHOD' =3D> 'GET'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'REMOTE_PORT' =3D> '11031'
+    'SCRIPT_FILENAME' =3D> 'D:/php code/qd/frontend/web/api/index.php'
+    'SERVER_ADMIN' =3D> 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'CONTEXT_PREFIX' =3D> ''
+    'REQUEST_SCHEME' =3D> 'http'
+    'DOCUMENT_ROOT' =3D> 'D:/php code/qd/frontend/web'
+    'REMOTE_ADDR' =3D> '127.0.0.1'
+    'SERVER_PORT' =3D> '80'
+    'SERVER_ADDR' =3D> '127.0.0.1'
+    'SERVER_NAME' =3D> 'www.qd.com'
+    'SERVER_SOFTWARE' =3D> 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j
+mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' =3D> ''
+    'SystemRoot' =3D> 'C:\\WINDOWS'
+    'HTTP_COOKIE' =3D>
+'_identity=3Dc418550bff04740e3600c8ab5945b3f28a9ecd064861d1791bb2260769e=
+755a5a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5=
+B1%2C%22AfMP8FJuynd6yqK77ryf9_Okbffk_OSv%22%2C2592000%5D%22%3B%7D;
+PHPSESSID=3D2a4i2ei02flt69vkjavjdtmp03;
+_csrf=3Dbcdc83c3661cd26c772c540060fd218b89f3b1e0bb581aaecc683f61e0868fd5a=
+%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Ne-VMFAEc9_C=
+OToAp8JfYjMgcbEsuAFV%22%3B%7D;
+BACKEND_FEEHICMS=3D048d40nbr61jouqh31t3u0n082;
+_csrf_backend=3D624087c321bcd65a8a567059824e093798d02b05cf1072e1e8c3e9df97b=
+4af48a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32%3A=
+%22G25hE71b8Yl-a9VT3t-Ghy3A4Ha7squU%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate'
+    'HTTP_PURPOSE' =3D> 'prefetch'
+    'HTTP_ACCEPT' =3D>
+'text/html,application/xhtml+xml,application/xml;q=3D0.9,image/webp,image/a=
+png,*/*;q=3D0.8,application/signed-exchange;v=3Db3'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 10.0; WOW64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100
+Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_CONNECTION' =3D> 'close'
+    'HTTP_HOST' =3D> 'www.qd.com'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/api/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1587016033.2531
+    'REQUEST_TIME' =3D> 1587016033
+]
