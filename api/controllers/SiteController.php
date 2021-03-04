@@ -1,24 +1,14 @@
 <?php
-/**
- * Author: lf
- * Blog: https://blog.feehi.com
- * Email: job@feehi.com
- * Created at: 2017-08-30 18:10
- */
 namespace api\controllers;
 
 use api\models\Category;
-use api\models\Navigationbar;
-use frontend\controllers\SearchController;
+use common\models\Article;
 use Yii;
 use api\models\form\SignupForm;
 use common\models\User;
 use api\models\form\LoginForm;
-use yii\web\HttpException;
-use yii\web\IdentityInterface;
 use yii\web\NotFoundHttpException;
 use yii\web\Response;
-use yii\web\ServerErrorHttpException;
 use api\models\CompanyModel;
 class SiteController extends PublicController
 {
@@ -158,4 +148,5 @@ class SiteController extends PublicController
 
 
     }
+
 }
